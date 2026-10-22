@@ -20,10 +20,15 @@ if not exist ".venv\Scripts\python.exe" (
 
 echo Installing dependencies...
 ".venv\Scripts\python.exe" -m pip install -q --upgrade pip
-".venv\Scripts\python.exe" -m pip install -q -r requirements.txt
+".venv\Scripts\python.exe" -m pip install -q -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+if errorlevel 1 (
+  echo Default index failed, retrying with official PyPI...
+  ".venv\Scripts\python.exe" -m pip install -q -r requirements.txt
+)
 if errorlevel 1 (
   echo.
   echo [ERROR] Dependency installation failed. Check your network.
+  echo Try manually: .venv\Scripts\python.exe -m pip install -r requirements.txt
   pause
   exit /b 1
 )
