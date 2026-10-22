@@ -1,0 +1,23 @@
+[project]
+name = "cfl-text-difficulty"
+version = "1.0.0"
+description = "基于《国际中文教育中文水平等级标准》的汉语二语文本阅读难度自动分级系统"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn>=0.30",
+    "jieba>=0.42",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8",
+]
+
+[tool.uv]
+# 国内网络环境下使用清华镜像；如网络可直接访问 PyPI，可注释掉下一行
+index-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

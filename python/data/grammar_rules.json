@@ -1,0 +1,7971 @@
+[
+ {
+  "no": "1",
+  "level": 1,
+  "label": "词类／名词／方位名词",
+  "group": "词类",
+  "category": "名词",
+  "details": "方位名词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "上",
+     "下",
+     "东",
+     "前",
+     "北",
+     "南",
+     "右",
+     "后",
+     "外",
+     "左",
+     "西",
+     "里"
+    ]
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "上边",
+     "下边",
+     "东边",
+     "前边",
+     "北边",
+     "南边",
+     "右边",
+     "后边",
+     "外边",
+     "左边",
+     "西边",
+     "里边"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "2",
+  "level": 1,
+  "label": "词类／动词／能愿动词",
+  "group": "词类",
+  "category": "动词",
+  "details": "能愿动词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "会",
+     "能"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "3",
+  "level": 1,
+  "label": "词类／动词／能愿动词",
+  "group": "词类",
+  "category": "动词",
+  "details": "能愿动词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "想",
+     "要"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "4",
+  "level": 1,
+  "label": "词类／代词／疑问代词",
+  "group": "词类",
+  "category": "代词",
+  "details": "疑问代词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "什么",
+     "几",
+     "哪",
+     "哪些",
+     "哪儿",
+     "哪里",
+     "多",
+     "多少",
+     "怎么",
+     "谁"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "5",
+  "level": 1,
+  "label": "词类／代词／人称代词",
+  "group": "词类",
+  "category": "代词",
+  "details": "人称代词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "他",
+     "他们",
+     "你",
+     "你们",
+     "她",
+     "她们",
+     "您",
+     "我",
+     "我们"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "6",
+  "level": 1,
+  "label": "词类／代词／指示代词",
+  "group": "词类",
+  "category": "代词",
+  "details": "指示代词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "别的",
+     "有的",
+     "这",
+     "这些",
+     "这儿",
+     "这里",
+     "那",
+     "那些",
+     "那儿",
+     "那里"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "7",
+  "level": 1,
+  "label": "词类／数词／一、二/两、三、四、五、六、七、八、九、零；十、百；半",
+  "group": "词类",
+  "category": "数词",
+  "details": "一、二/两、三、四、五、六、七、八、九、零；十、百；半",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "一",
+     "七",
+     "三",
+     "两",
+     "九",
+     "二",
+     "五",
+     "八",
+     "六",
+     "四",
+     "零"
+    ]
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "十",
+     "百"
+    ]
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "半"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "8",
+  "level": 1,
+  "label": "词类／量词／名量词",
+  "group": "词类",
+  "category": "量词",
+  "details": "名量词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "个",
+     "口",
+     "块",
+     "家",
+     "本",
+     "杯",
+     "间",
+     "页"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "9",
+  "level": 1,
+  "label": "词类／副词／程度副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "程度副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "太",
+     "很",
+     "最",
+     "真",
+     "非常"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "10",
+  "level": 1,
+  "label": "词类／副词／范围、协同副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "范围、协同副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "一块儿",
+     "一起",
+     "都"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "11",
+  "level": 1,
+  "label": "词类／副词／时间副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "时间副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "先",
+     "在",
+     "有时",
+     "正",
+     "正在",
+     "马上"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "12",
+  "level": 1,
+  "label": "词类／副词／频率、重复副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "频率、重复副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "再",
+     "常",
+     "常常"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "13",
+  "level": 1,
+  "label": "词类／副词／关联副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "关联副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "也",
+     "还"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "14",
+  "level": 1,
+  "label": "词类／副词／否定副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "否定副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "不",
+     "别",
+     "没",
+     "没有"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "15",
+  "level": 1,
+  "label": "词类／介词／引出时间、处所",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出时间、处所",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "从"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "16",
+  "level": 1,
+  "label": "词类／介词／引出时间、处所",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出时间、处所",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "在"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "17",
+  "level": 1,
+  "label": "词类／介词／引出对象",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出对象",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "和",
+     "跟"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "18",
+  "level": 1,
+  "label": "词类／介词／引出对象",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出对象",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "比"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "19",
+  "level": 1,
+  "label": "词类／连词／连接词或词组",
+  "group": "词类",
+  "category": "连词",
+  "details": "连接词或词组",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "和",
+     "跟",
+     "还是"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "20",
+  "level": 1,
+  "label": "词类／助词／结构助词",
+  "group": "词类",
+  "category": "助词",
+  "details": "结构助词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "地",
+     "的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "21",
+  "level": 1,
+  "label": "词类／助词／动态助词",
+  "group": "词类",
+  "category": "助词",
+  "details": "动态助词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "了"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "22",
+  "level": 1,
+  "label": "词类／助词／语气助词",
+  "group": "词类",
+  "category": "助词",
+  "details": "语气助词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "了",
+     "吗",
+     "吧",
+     "呢"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "24",
+  "level": 1,
+  "label": "句子成分／主语／名词、代词或名词性短语作主语",
+  "group": "句子成分",
+  "category": "主语",
+  "details": "名词、代词或名词性短语作主语",
+  "rules": [
+   {
+    "kind": "structural",
+    "detector": "ever",
+    "desc": "主语（名词、代词或名词性短语）"
+   }
+  ]
+ },
+ {
+  "no": "25",
+  "level": 1,
+  "label": "句子成分／谓语／动词或动词性短语、形容词或形容词性短语作谓语",
+  "group": "句子成分",
+  "category": "谓语",
+  "details": "动词或动词性短语、形容词或形容词性短语作谓语",
+  "rules": [
+   {
+    "kind": "structural",
+    "detector": "ever",
+    "desc": "谓语（动词性/形容词性短语）"
+   }
+  ]
+ },
+ {
+  "no": "26",
+  "level": 1,
+  "label": "句子成分／宾语／名词、代词或名词性短语作宾语",
+  "group": "句子成分",
+  "category": "宾语",
+  "details": "名词、代词或名词性短语作宾语",
+  "rules": [
+   {
+    "kind": "structural",
+    "detector": "ever",
+    "desc": "宾语"
+   }
+  ]
+ },
+ {
+  "no": "27",
+  "level": 1,
+  "label": "句子成分／定语／名词性词语、形容词性词语、数量短语作定语",
+  "group": "句子成分",
+  "category": "定语",
+  "details": "名词性词语、形容词性词语、数量短语作定语",
+  "rules": [
+   {
+    "kind": "structural",
+    "detector": "attributive",
+    "desc": "定语（“的”前修饰语）"
+   }
+  ]
+ },
+ {
+  "no": "28",
+  "level": 1,
+  "label": "句子成分／状语／副词、形容词作状语； \n表示时间、处所的词语作状语",
+  "group": "句子成分",
+  "category": "状语",
+  "details": "副词、形容词作状语； \n表示时间、处所的词语作状语",
+  "rules": [
+   {
+    "kind": "structural",
+    "detector": "adverbial",
+    "desc": "状语（副词/形容词作状语）"
+   }
+  ]
+ },
+ {
+  "no": "29",
+  "level": 1,
+  "label": "句子的类型／句型／单句",
+  "group": "句子的类型",
+  "category": "句型",
+  "details": "单句",
+  "rules": [
+   {
+    "kind": "structural",
+    "detector": "ever",
+    "desc": "单句"
+   }
+  ]
+ },
+ {
+  "no": "30",
+  "level": 1,
+  "label": "句子的类型／句型／单句",
+  "group": "句子的类型",
+  "category": "句型",
+  "details": "单句",
+  "rules": [
+   {
+    "kind": "structural",
+    "detector": "ever",
+    "desc": "单句"
+   }
+  ]
+ },
+ {
+  "no": "31",
+  "level": 1,
+  "label": "句子的类型／句型／单句",
+  "group": "句子的类型",
+  "category": "句型",
+  "details": "单句",
+  "rules": [
+   {
+    "kind": "structural",
+    "detector": "ever",
+    "desc": "单句"
+   }
+  ]
+ },
+ {
+  "no": "32",
+  "level": 1,
+  "label": "句子的类型／句类／陈述句",
+  "group": "句子的类型",
+  "category": "句类",
+  "details": "陈述句",
+  "rules": [
+   {
+    "kind": "structural",
+    "detector": "declarative",
+    "desc": "陈述句"
+   }
+  ]
+ },
+ {
+  "no": "33",
+  "level": 1,
+  "label": "句子的类型／句类／疑问句",
+  "group": "句子的类型",
+  "category": "句类",
+  "details": "疑问句",
+  "rules": [
+   {
+    "kind": "structural",
+    "detector": "interrogative",
+    "desc": "疑问句"
+   }
+  ]
+ },
+ {
+  "no": "34",
+  "level": 1,
+  "label": "句子的类型／句类／祈使句",
+  "group": "句子的类型",
+  "category": "句类",
+  "details": "祈使句",
+  "rules": [
+   {
+    "kind": "structural",
+    "detector": "imperative",
+    "desc": "祈使句"
+   }
+  ]
+ },
+ {
+  "no": "35",
+  "level": 1,
+  "label": "句子的类型／句类／感叹句",
+  "group": "句子的类型",
+  "category": "句类",
+  "details": "感叹句",
+  "rules": [
+   {
+    "kind": "structural",
+    "detector": "exclamative",
+    "desc": "感叹句"
+   }
+  ]
+ },
+ {
+  "no": "36",
+  "level": 1,
+  "label": "句子的类型／特殊句型／“是”字句",
+  "group": "句子的类型",
+  "category": "特殊句型",
+  "details": "“是”字句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "desc": "“是”字句",
+    "pattern": "是"
+   }
+  ]
+ },
+ {
+  "no": "37",
+  "level": 1,
+  "label": "句子的类型／特殊句型／“有”字句",
+  "group": "句子的类型",
+  "category": "特殊句型",
+  "details": "“有”字句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "desc": "“有”字句",
+    "pattern": "有"
+   }
+  ]
+ },
+ {
+  "no": "38",
+  "level": 1,
+  "label": "句子的类型／特殊句型／比较句",
+  "group": "句子的类型",
+  "category": "特殊句型",
+  "details": "比较句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "desc": "比较句",
+    "pattern": "(?:比|跟|和|与)[^。！？；]{0,10}?(?:一样|相同|相比|差不多|更|还)"
+   }
+  ]
+ },
+ {
+  "no": "39",
+  "level": 1,
+  "label": "句子的类型／复句／并列复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "并列复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "一边"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "一边"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "40",
+  "level": 1,
+  "label": "动作的态／变化态",
+  "group": "动作的态",
+  "category": "动作的态",
+  "details": "变化态",
+  "rules": [
+   {
+    "kind": "pattern",
+    "desc": "变化态（了）",
+    "pattern": "[一-鿿]{1,4}了"
+   }
+  ]
+ },
+ {
+  "no": "41",
+  "level": 1,
+  "label": "动作的态／完成态",
+  "group": "动作的态",
+  "category": "动作的态",
+  "details": "完成态",
+  "rules": [
+   {
+    "kind": "pattern",
+    "desc": "完成态（了）",
+    "pattern": "[一-鿿]{1,4}了"
+   }
+  ]
+ },
+ {
+  "no": "42",
+  "level": 1,
+  "label": "动作的态／进行态",
+  "group": "动作的态",
+  "category": "动作的态",
+  "details": "进行态",
+  "rules": [
+   {
+    "kind": "pattern",
+    "desc": "进行态（正在/呢）",
+    "pattern": "(?:正在|正|在)[一-鿿]{1,6}|[一-鿿]{1,6}呢"
+   }
+  ]
+ },
+ {
+  "no": "43",
+  "level": 1,
+  "label": "特殊表达法／数的表示法／钱数表示法",
+  "group": "特殊表达法",
+  "category": "数的表示法",
+  "details": "钱数表示法",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "[0-9０-９一二三四五六七八九十百千万]{1,8}(?:元|块钱|块|角|毛|分钱|分)",
+    "desc": "钱数表示法"
+   }
+  ]
+ },
+ {
+  "no": "44",
+  "level": 1,
+  "label": "特殊表达法／时间表示法／（1）年、月、日、星期表示法（2）钟点表示法",
+  "group": "特殊表达法",
+  "category": "时间表示法",
+  "details": "（1）年、月、日、星期表示法（2）钟点表示法",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "(?:[0-9０-９一二三四五六七八九十]{1,4}(?:年|月|日|号|点|点钟|分钟|小时|秒)|星期[一二三四五六日天]|周[一二三四五六日天])",
+    "desc": "时间表示法"
+   }
+  ]
+ },
+ {
+  "no": "45",
+  "level": 1,
+  "label": "提问的方法／用“吗”提问",
+  "group": "提问的方法",
+  "category": "用“吗”提问",
+  "details": "",
+  "rules": [
+   {
+    "kind": "structural",
+    "detector": "interrogative",
+    "desc": "提问表达"
+   }
+  ]
+ },
+ {
+  "no": "46",
+  "level": 1,
+  "label": "提问的方法／用“多、多少、几、哪、哪儿、哪里、哪些、什么、谁、怎么”提问",
+  "group": "提问的方法",
+  "category": "用“多、多少、几、哪、哪儿、哪里、哪些、什么、谁、怎么”提问",
+  "details": "",
+  "rules": [
+   {
+    "kind": "structural",
+    "detector": "interrogative",
+    "desc": "提问表达"
+   }
+  ]
+ },
+ {
+  "no": "47",
+  "level": 1,
+  "label": "提问的方法／用“还是”提问",
+  "group": "提问的方法",
+  "category": "用“还是”提问",
+  "details": "",
+  "rules": [
+   {
+    "kind": "structural",
+    "detector": "interrogative",
+    "desc": "提问表达"
+   }
+  ]
+ },
+ {
+  "no": "48",
+  "level": 1,
+  "label": "提问的方法／用正反疑问形式提问",
+  "group": "提问的方法",
+  "category": "用正反疑问形式提问",
+  "details": "",
+  "rules": [
+   {
+    "kind": "structural",
+    "detector": "interrogative",
+    "desc": "提问表达"
+   }
+  ]
+ },
+ {
+  "no": "49",
+  "level": 2,
+  "label": "词类／动词／能愿动词",
+  "group": "词类",
+  "category": "动词",
+  "details": "能愿动词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "可能"
+    ]
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "可以"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "50",
+  "level": 2,
+  "label": "词类／动词／能愿动词",
+  "group": "词类",
+  "category": "动词",
+  "details": "能愿动词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "应该",
+     "该"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "51",
+  "level": 2,
+  "label": "词类／动词／能愿动词",
+  "group": "词类",
+  "category": "动词",
+  "details": "能愿动词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "愿意"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "53",
+  "level": 2,
+  "label": "词类／代词／疑问代词",
+  "group": "词类",
+  "category": "代词",
+  "details": "疑问代词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "为什么",
+     "多久",
+     "怎么样",
+     "怎样"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "54",
+  "level": 2,
+  "label": "词类／代词／人称代词",
+  "group": "词类",
+  "category": "代词",
+  "details": "人称代词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "别人",
+     "咱",
+     "咱们",
+     "大家",
+     "它",
+     "它们",
+     "自己"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "55",
+  "level": 2,
+  "label": "词类／代词／指示代词",
+  "group": "词类",
+  "category": "代词",
+  "details": "指示代词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "这么",
+     "这样",
+     "那么",
+     "那样"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "57",
+  "level": 2,
+  "label": "词类／数词／千、万、亿",
+  "group": "词类",
+  "category": "数词",
+  "details": "千、万、亿",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "万",
+     "亿",
+     "千"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "58",
+  "level": 2,
+  "label": "词类／量词／名量词",
+  "group": "词类",
+  "category": "量词",
+  "details": "名量词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "件",
+     "位",
+     "封",
+     "层",
+     "条"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "59",
+  "level": 2,
+  "label": "词类／量词／动量词",
+  "group": "词类",
+  "category": "量词",
+  "details": "动量词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "下",
+     "回",
+     "场",
+     "次",
+     "遍"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "60",
+  "level": 2,
+  "label": "词类／量词／时量词",
+  "group": "词类",
+  "category": "量词",
+  "details": "时量词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "分钟",
+     "周",
+     "天",
+     "年"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "61",
+  "level": 2,
+  "label": "词类／副词／程度副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "程度副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "十分",
+     "多",
+     "多么",
+     "好",
+     "挺",
+     "更",
+     "有点儿",
+     "特别"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "62",
+  "level": 2,
+  "label": "词类／副词／范围、协同副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "范围、协同副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "一共",
+     "全",
+     "只"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "63",
+  "level": 2,
+  "label": "词类／副词／时间副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "时间副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "一直",
+     "刚",
+     "刚刚",
+     "已经",
+     "忽然",
+     "还"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "64",
+  "level": 2,
+  "label": "词类／副词／频率、重复副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "频率、重复副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "又",
+     "经常",
+     "老",
+     "老是",
+     "重新"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "65",
+  "level": 2,
+  "label": "词类／副词／关联副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "关联副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "就"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "66",
+  "level": 2,
+  "label": "词类／副词／方式副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "方式副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "故意"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "67",
+  "level": 2,
+  "label": "词类／副词／情态副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "情态副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "也许",
+     "好像",
+     "差不多",
+     "必须"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "68",
+  "level": 2,
+  "label": "词类／副词／语气副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "语气副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "就",
+     "才",
+     "正好",
+     "都"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "69",
+  "level": 2,
+  "label": "词类／介词／引出时间、处所",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出时间、处所",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "当"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "70",
+  "level": 2,
+  "label": "词类／介词／引出方向、路径",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出方向、路径",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "往"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "71",
+  "level": 2,
+  "label": "词类／介词／引出方向、路径",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出方向、路径",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "向"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "72",
+  "level": 2,
+  "label": "词类／介词／引出方向、路径",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出方向、路径",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "从"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "73",
+  "level": 2,
+  "label": "词类／介词／引出对象",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出对象",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "对"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "74",
+  "level": 2,
+  "label": "词类／介词／引出对象",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出对象",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "给"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "75",
+  "level": 2,
+  "label": "词类／介词／引出对象",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出对象",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "离"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "76",
+  "level": 2,
+  "label": "词类／介词／引出目的、原因",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出目的、原因",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "为"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "77",
+  "level": 2,
+  "label": "词类／连词／连接词或词组",
+  "group": "词类",
+  "category": "连词",
+  "details": "连接词或词组",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "或",
+     "或者"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "78",
+  "level": 2,
+  "label": "词类／连词／连接分句或句子",
+  "group": "词类",
+  "category": "连词",
+  "details": "连接分句或句子",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "不过",
+     "但",
+     "但是",
+     "只要",
+     "如果",
+     "而且",
+     "虽然",
+     "那"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "79",
+  "level": 2,
+  "label": "词类／助词／结构助词",
+  "group": "词类",
+  "category": "助词",
+  "details": "结构助词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "得"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "80",
+  "level": 2,
+  "label": "词类／助词／动态助词",
+  "group": "词类",
+  "category": "助词",
+  "details": "动态助词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "过"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "81",
+  "level": 2,
+  "label": "词类／助词／着",
+  "group": "词类",
+  "category": "助词",
+  "details": "着",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "着"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "82",
+  "level": 2,
+  "label": "词类／助词／语气助词",
+  "group": "词类",
+  "category": "助词",
+  "details": "语气助词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "吧",
+     "啊",
+     "的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "83",
+  "level": 2,
+  "label": "词类／助词／其他助词",
+  "group": "词类",
+  "category": "助词",
+  "details": "其他助词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "的话",
+     "等"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "84",
+  "level": 2,
+  "label": "词类／叹词／喂",
+  "group": "词类",
+  "category": "叹词",
+  "details": "喂",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "喂"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "87",
+  "level": 2,
+  "label": "短语／功能类型／名词性短语",
+  "group": "短语",
+  "category": "功能类型",
+  "details": "名词性短语",
+  "rules": [
+   {
+    "kind": "structural",
+    "desc": "名词性短语",
+    "detector": "ever"
+   }
+  ]
+ },
+ {
+  "no": "88",
+  "level": 2,
+  "label": "短语／功能类型／动词性短语",
+  "group": "短语",
+  "category": "功能类型",
+  "details": "动词性短语",
+  "rules": [
+   {
+    "kind": "structural",
+    "desc": "动词性短语",
+    "detector": "ever"
+   }
+  ]
+ },
+ {
+  "no": "89",
+  "level": 2,
+  "label": "短语／功能类型／形容词性短语",
+  "group": "短语",
+  "category": "功能类型",
+  "details": "形容词性短语",
+  "rules": [
+   {
+    "kind": "structural",
+    "desc": "形容词性短语",
+    "detector": "ever"
+   }
+  ]
+ },
+ {
+  "no": "90",
+  "level": 2,
+  "label": "短语／固定短语／其他",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "其他",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "91",
+  "level": 2,
+  "label": "短语／固定短语／其他",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "其他",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "92",
+  "level": 2,
+  "label": "短语／固定短语／其他",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "其他",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "93",
+  "level": 2,
+  "label": "固定格式／还是……吧",
+  "group": "固定格式",
+  "category": "还是……吧",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "还是.{0,14}?吧"
+   }
+  ]
+ },
+ {
+  "no": "94",
+  "level": 2,
+  "label": "固定格式／又……又……",
+  "group": "固定格式",
+  "category": "又……又……",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "又.{0,14}?又"
+   }
+  ]
+ },
+ {
+  "no": "95",
+  "level": 2,
+  "label": "固定格式／（在）……以前/以后/前/后",
+  "group": "固定格式",
+  "category": "（在）……以前/以后/前/后",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "(?:以前|以后|前|后)"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "以前",
+     "以后",
+     "前",
+     "后"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "97",
+  "level": 2,
+  "label": "句子成分／补语／结果补语",
+  "group": "句子成分",
+  "category": "补语",
+  "details": "结果补语",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "会",
+     "好",
+     "完",
+     "干净",
+     "懂",
+     "清楚"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "98",
+  "level": 2,
+  "label": "句子成分／补语／趋向补语",
+  "group": "句子成分",
+  "category": "补语",
+  "details": "趋向补语",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "下",
+     "出",
+     "去动词上",
+     "回",
+     "开",
+     "起",
+     "过",
+     "进"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "108",
+  "level": 2,
+  "label": "句子的类型／特殊句型／“是……的”句",
+  "group": "句子的类型",
+  "category": "特殊句型",
+  "details": "“是……的”句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "desc": "“是……的”句",
+    "pattern": "是.{0,14}?的"
+   }
+  ]
+ },
+ {
+  "no": "109",
+  "level": 2,
+  "label": "句子的类型／特殊句型／双宾语句",
+  "group": "句子的类型",
+  "category": "特殊句型",
+  "details": "双宾语句",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "双宾语句",
+    "needles": [
+     "送给",
+     "告诉",
+     "教给",
+     "借给",
+     "还给",
+     "递给"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "110",
+  "level": 2,
+  "label": "句子的类型／复句／承接复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "承接复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "(?:再|然后)"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "再",
+     "然后"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "111",
+  "level": 2,
+  "label": "句子的类型／复句／递进复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "递进复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "(?:更|还)"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "更",
+     "还"
+    ]
+   },
+   {
+    "kind": "pattern",
+    "pattern": "不但.{0,14}?而且"
+   }
+  ]
+ },
+ {
+  "no": "112",
+  "level": 2,
+  "label": "句子的类型／复句／选择复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "选择复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "还是"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "还是"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "113",
+  "level": 2,
+  "label": "句子的类型／复句／转折复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "转折复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "(?:但是|可是)"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "但是",
+     "可是"
+    ]
+   },
+   {
+    "kind": "pattern",
+    "pattern": "不过"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "不过"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "115",
+  "level": 2,
+  "label": "句子的类型／复句／条件复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "条件复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "只要.{0,14}?就"
+   }
+  ]
+ },
+ {
+  "no": "116",
+  "level": 2,
+  "label": "句子的类型／复句／因果复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "因果复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "所以"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "所以"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "117",
+  "level": 2,
+  "label": "句子的类型／复句／紧缩复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "紧缩复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "一.{0,14}?就"
+   }
+  ]
+ },
+ {
+  "no": "118",
+  "level": 2,
+  "label": "动作的态／持续态",
+  "group": "动作的态",
+  "category": "动作的态",
+  "details": "持续态",
+  "rules": [
+   {
+    "kind": "pattern",
+    "desc": "持续态（着）",
+    "pattern": "[一-鿿]{1,4}着"
+   }
+  ]
+ },
+ {
+  "no": "119",
+  "level": 2,
+  "label": "动作的态／经历态",
+  "group": "动作的态",
+  "category": "动作的态",
+  "details": "经历态",
+  "rules": [
+   {
+    "kind": "pattern",
+    "desc": "经历态（过）",
+    "pattern": "[一-鿿]{1,4}过"
+   }
+  ]
+ },
+ {
+  "no": "120",
+  "level": 2,
+  "label": "特殊表达法／数的表示法／序数表示法",
+  "group": "特殊表达法",
+  "category": "数的表示法",
+  "details": "序数表示法",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "第[0-9０-９一二三四五六七八九十]{0,4}",
+    "desc": "序数表示法"
+   }
+  ]
+ },
+ {
+  "no": "121",
+  "level": 2,
+  "label": "特殊表达法／数的表示法／概数表示法1： \n（1）数词+多+量词（2）数词+量词+多",
+  "group": "特殊表达法",
+  "category": "数的表示法",
+  "details": "概数表示法1： \n（1）数词+多+量词（2）数词+量词+多",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "[0-9０-９一二三四五六七八九十]{1,4}(?:多|来|几|左右|上下|有余)",
+    "desc": "概数表示法"
+   }
+  ]
+ },
+ {
+  "no": "122",
+  "level": 2,
+  "label": "强调的方法／用“就”表示强调",
+  "group": "强调的方法",
+  "category": "用“就”表示强调",
+  "details": "",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "就"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "123",
+  "level": 2,
+  "label": "强调的方法／※“是……的”表示强调（见“是……的”句1和“是……的”句2）)",
+  "group": "强调的方法",
+  "category": "※“是……的”表示强调（见“是……的”句1和“是……的”句2）)",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "是.{0,14}?的"
+   },
+   {
+    "kind": "pattern",
+    "pattern": "是.{0,14}?的"
+   },
+   {
+    "kind": "pattern",
+    "pattern": "是.{0,14}?的"
+   }
+  ]
+ },
+ {
+  "no": "124",
+  "level": 2,
+  "label": "提问的方法／用“好吗/可以吗/行吗/怎么样”提问",
+  "group": "提问的方法",
+  "category": "用“好吗/可以吗/行吗/怎么样”提问",
+  "details": "",
+  "rules": [
+   {
+    "kind": "structural",
+    "detector": "interrogative",
+    "desc": "提问表达"
+   }
+  ]
+ },
+ {
+  "no": "125",
+  "level": 2,
+  "label": "提问的方法／用“什么时候、什么样、为什么、怎么样、怎样”提问",
+  "group": "提问的方法",
+  "category": "用“什么时候、什么样、为什么、怎么样、怎样”提问",
+  "details": "",
+  "rules": [
+   {
+    "kind": "structural",
+    "detector": "interrogative",
+    "desc": "提问表达"
+   }
+  ]
+ },
+ {
+  "no": "126",
+  "level": 2,
+  "label": "提问的方法／用“呢”构成的省略式疑问句“代词/名词+呢？”提问",
+  "group": "提问的方法",
+  "category": "用“呢”构成的省略式疑问句“代词/名词+呢？”提问",
+  "details": "",
+  "rules": [
+   {
+    "kind": "structural",
+    "detector": "interrogative",
+    "desc": "提问表达"
+   }
+  ]
+ },
+ {
+  "no": "127",
+  "level": 2,
+  "label": "提问的方法／用“是不是”提问",
+  "group": "提问的方法",
+  "category": "用“是不是”提问",
+  "details": "",
+  "rules": [
+   {
+    "kind": "structural",
+    "detector": "interrogative",
+    "desc": "提问表达"
+   }
+  ]
+ },
+ {
+  "no": "128",
+  "level": 2,
+  "label": "提问的方法／用“吧”提问",
+  "group": "提问的方法",
+  "category": "用“吧”提问",
+  "details": "",
+  "rules": [
+   {
+    "kind": "structural",
+    "detector": "interrogative",
+    "desc": "提问表达"
+   }
+  ]
+ },
+ {
+  "no": "129",
+  "level": 2,
+  "label": "口语格式／该……了",
+  "group": "口语格式",
+  "category": "该……了",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "该.{0,14}?了"
+   }
+  ]
+ },
+ {
+  "no": "130",
+  "level": 2,
+  "label": "口语格式／要/快要/就要……了",
+  "group": "口语格式",
+  "category": "要/快要/就要……了",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "(?:要|快要|就要).{0,14}?了"
+   }
+  ]
+ },
+ {
+  "no": "131",
+  "level": 3,
+  "label": "语素／前缀／第-、老-、小-",
+  "group": "语素",
+  "category": "前缀",
+  "details": "第-、老-、小-",
+  "rules": [
+   {
+    "kind": "affix",
+    "position": "prefix",
+    "needles": [
+     "第",
+     "老"
+    ],
+    "desc": "词缀（前缀）：第、老"
+   }
+  ]
+ },
+ {
+  "no": "132",
+  "level": 3,
+  "label": "语素／后缀／-儿、-家、-们、-头、-子",
+  "group": "语素",
+  "category": "后缀",
+  "details": "-儿、-家、-们、-头、-子",
+  "rules": [
+   {
+    "kind": "affix",
+    "position": "suffix",
+    "needles": [
+     "们",
+     "儿",
+     "头",
+     "家"
+    ],
+    "desc": "词缀（后缀）：们、儿、头、家"
+   }
+  ]
+ },
+ {
+  "no": "133",
+  "level": 3,
+  "label": "词类／动词／能愿动词",
+  "group": "词类",
+  "category": "动词",
+  "details": "能愿动词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "敢"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "134",
+  "level": 3,
+  "label": "词类／动词／能愿动词",
+  "group": "词类",
+  "category": "动词",
+  "details": "能愿动词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "需要"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "135",
+  "level": 3,
+  "label": "词类／动词／离合词",
+  "group": "词类",
+  "category": "动词",
+  "details": "离合词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "干杯",
+     "放假",
+     "洗澡",
+     "点头",
+     "理发",
+     "看病",
+     "睡觉",
+     "结婚",
+     "见面",
+     "说话"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "136",
+  "level": 3,
+  "label": "词类／动词／离合词",
+  "group": "词类",
+  "category": "动词",
+  "details": "离合词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "完成",
+     "看见",
+     "离开"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "137",
+  "level": 3,
+  "label": "词类／代词／疑问代词",
+  "group": "词类",
+  "category": "代词",
+  "details": "疑问代词",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "疑问代词.{0,14}?不定指用法"
+   }
+  ]
+ },
+ {
+  "no": "138",
+  "level": 3,
+  "label": "词类／代词／指示代词",
+  "group": "词类",
+  "category": "代词",
+  "details": "指示代词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "任何",
+     "各",
+     "各位",
+     "各种",
+     "每"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "139",
+  "level": 3,
+  "label": "词类／量词／名量词",
+  "group": "词类",
+  "category": "量词",
+  "details": "名量词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "双",
+     "只",
+     "台",
+     "张",
+     "把",
+     "支",
+     "束",
+     "架",
+     "种",
+     "群",
+     "行"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "140",
+  "level": 3,
+  "label": "词类／量词／动量词",
+  "group": "词类",
+  "category": "量词",
+  "details": "动量词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "口",
+     "眼",
+     "顿"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "142",
+  "level": 3,
+  "label": "词类／副词／程度副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "程度副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "更加",
+     "比较",
+     "相当",
+     "还"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "143",
+  "level": 3,
+  "label": "词类／副词／范围、协同副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "范围、协同副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "仅",
+     "仅仅",
+     "光",
+     "就",
+     "至少"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "144",
+  "level": 3,
+  "label": "词类／副词／时间副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "时间副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "从来",
+     "始终",
+     "已",
+     "才",
+     "早已",
+     "曾经",
+     "本来",
+     "立刻",
+     "赶快",
+     "赶紧",
+     "连忙"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "145",
+  "level": 3,
+  "label": "词类／副词／频率、重复副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "频率、重复副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "往往",
+     "总",
+     "总是",
+     "通常"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "146",
+  "level": 3,
+  "label": "词类／副词／关联副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "关联副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "再"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "147",
+  "level": 3,
+  "label": "词类／副词／方式副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "方式副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "互相",
+     "亲自",
+     "尽量",
+     "相互"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "148",
+  "level": 3,
+  "label": "词类／副词／情态副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "情态副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "大概",
+     "恐怕"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "149",
+  "level": 3,
+  "label": "词类／副词／语气副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "语气副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "其实",
+     "到底",
+     "千万",
+     "反正",
+     "只好",
+     "并",
+     "当然",
+     "果然",
+     "根本",
+     "白",
+     "确实",
+     "简直",
+     "终于",
+     "绝对",
+     "难道"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "150",
+  "level": 3,
+  "label": "词类／介词／引出时间、处所",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出时间、处所",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "由"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "151",
+  "level": 3,
+  "label": "词类／介词／引出时间、处所",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出时间、处所",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "自从"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "152",
+  "level": 3,
+  "label": "词类／介词／引出方向、路径",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出方向、路径",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "朝"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "153",
+  "level": 3,
+  "label": "词类／介词／引出对象",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出对象",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "为"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "154",
+  "level": 3,
+  "label": "词类／介词／引出对象",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出对象",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "向"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "155",
+  "level": 3,
+  "label": "词类／介词／引出目的、原因",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出目的、原因",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "因为",
+     "由于"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "156",
+  "level": 3,
+  "label": "词类／介词／引出目的、原因",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出目的、原因",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "为了"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "157",
+  "level": 3,
+  "label": "词类／介词／引出施事、受事",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出施事、受事",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "叫",
+     "把",
+     "被",
+     "让"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "158",
+  "level": 3,
+  "label": "词类／介词／表示排除",
+  "group": "词类",
+  "category": "介词",
+  "details": "表示排除",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "除了"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "159",
+  "level": 3,
+  "label": "词类／介词／引出凭借、依据",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出凭借、依据",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "按",
+     "按照"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "160",
+  "level": 3,
+  "label": "词类／连词／连接分句或句子",
+  "group": "词类",
+  "category": "连词",
+  "details": "连接分句或句子",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "不仅",
+     "不光",
+     "另外",
+     "只有",
+     "因此",
+     "并且",
+     "由于",
+     "要是"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "161",
+  "level": 3,
+  "label": "词类／拟声词／哈哈",
+  "group": "词类",
+  "category": "拟声词",
+  "details": "哈哈",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "哈哈"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "164",
+  "level": 3,
+  "label": "短语／固定短语／四字格",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "四字格",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "165",
+  "level": 3,
+  "label": "短语／固定短语／其他",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "其他",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "166",
+  "level": 3,
+  "label": "短语／固定短语／其他",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "其他",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "167",
+  "level": 3,
+  "label": "短语／固定短语／其他",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "其他",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "168",
+  "level": 3,
+  "label": "固定格式／除了……（以外），……还/也/都……",
+  "group": "固定格式",
+  "category": "除了……（以外），……还/也/都……",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "除了.{0,14}?.{0,14}?(?:还|也|都)"
+   }
+  ]
+ },
+ {
+  "no": "169",
+  "level": 3,
+  "label": "固定格式／从……起",
+  "group": "固定格式",
+  "category": "从……起",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "从.{0,14}?起"
+   }
+  ]
+ },
+ {
+  "no": "170",
+  "level": 3,
+  "label": "固定格式／对……来说",
+  "group": "固定格式",
+  "category": "对……来说",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "对.{0,14}?来说"
+   }
+  ]
+ },
+ {
+  "no": "171",
+  "level": 3,
+  "label": "固定格式／一……也/都+不/没……",
+  "group": "固定格式",
+  "category": "一……也/都+不/没……",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "一.{0,14}?(?:也|都不|没)"
+   }
+  ]
+ },
+ {
+  "no": "172",
+  "level": 3,
+  "label": "固定格式／越……越……",
+  "group": "固定格式",
+  "category": "越……越……",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "越.{0,14}?越"
+   }
+  ]
+ },
+ {
+  "no": "176",
+  "level": 3,
+  "label": "句子成分／补语／结果补语",
+  "group": "句子成分",
+  "category": "补语",
+  "details": "结果补语",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "住",
+     "走"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "177",
+  "level": 3,
+  "label": "句子成分／补语／趋向补语",
+  "group": "句子成分",
+  "category": "补语",
+  "details": "趋向补语",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "上去",
+     "上来",
+     "下去",
+     "下来",
+     "出去",
+     "回去",
+     "回来",
+     "起来",
+     "过去",
+     "过来",
+     "进去",
+     "进来"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "178",
+  "level": 3,
+  "label": "句子成分／补语／可能补语",
+  "group": "句子成分",
+  "category": "补语",
+  "details": "可能补语",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "不动词"
+    ]
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "不了",
+     "动词得"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "179",
+  "level": 3,
+  "label": "句子成分／补语／程度补语",
+  "group": "句子成分",
+  "category": "补语",
+  "details": "程度补语",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "心理动词得很",
+     "极了",
+     "死了"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "184",
+  "level": 3,
+  "label": "句子的类型／特殊句型／“把”字句",
+  "group": "句子的类型",
+  "category": "特殊句型",
+  "details": "“把”字句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "desc": "“把”字句",
+    "pattern": "把.{0,16}?[的地得]?"
+   }
+  ]
+ },
+ {
+  "no": "185",
+  "level": 3,
+  "label": "句子的类型／特殊句型／被动句",
+  "group": "句子的类型",
+  "category": "特殊句型",
+  "details": "被动句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "desc": "被动句",
+    "pattern": "被[^。！？；]{0,14}?(?:所)?"
+   }
+  ]
+ },
+ {
+  "no": "187",
+  "level": 3,
+  "label": "句子的类型／特殊句型／兼语句",
+  "group": "句子的类型",
+  "category": "特殊句型",
+  "details": "兼语句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "desc": "兼语句",
+    "pattern": "(?:请|使|派|选|称|命令|要求)[^。！？；]{0,12}"
+   }
+  ]
+ },
+ {
+  "no": "191",
+  "level": 3,
+  "label": "句子的类型／复句／并列复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "并列复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "一会儿.{0,14}?一会儿"
+   }
+  ]
+ },
+ {
+  "no": "192",
+  "level": 3,
+  "label": "句子的类型／复句／并列复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "并列复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "一方面.{0,14}?另一方面"
+   }
+  ]
+ },
+ {
+  "no": "193",
+  "level": 3,
+  "label": "句子的类型／复句／并列复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "并列复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "又.{0,14}?又"
+   }
+  ]
+ },
+ {
+  "no": "194",
+  "level": 3,
+  "label": "句子的类型／复句／承接复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "承接复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "首先.{0,14}?然后"
+   }
+  ]
+ },
+ {
+  "no": "195",
+  "level": 3,
+  "label": "句子的类型／复句／递进复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "递进复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "并且"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "并且"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "196",
+  "level": 3,
+  "label": "句子的类型／复句／递进复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "递进复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "(?:不仅|不光).{0,14}?(?:还|而且)"
+   }
+  ]
+ },
+ {
+  "no": "197",
+  "level": 3,
+  "label": "句子的类型／复句／选择复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "选择复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "不是.{0,14}?就是"
+   }
+  ]
+ },
+ {
+  "no": "198",
+  "level": 3,
+  "label": "句子的类型／复句／转折复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "转折复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "不过"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "不过"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "199",
+  "level": 3,
+  "label": "句子的类型／复句／假设复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "假设复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "要是.{0,14}?就"
+   }
+  ]
+ },
+ {
+  "no": "200",
+  "level": 3,
+  "label": "句子的类型／复句／条件复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "条件复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "只有.{0,14}?才"
+   }
+  ]
+ },
+ {
+  "no": "201",
+  "level": 3,
+  "label": "句子的类型／复句／因果复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "因果复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "(?:所以|因此)"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "因此",
+     "所以"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "202",
+  "level": 3,
+  "label": "句子的类型／复句／目的复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "目的复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "为了"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "为了"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "204",
+  "level": 3,
+  "label": "特殊表达法／数的表示法／概数表示法2： \n（1）用“大概、大约、几”表示概数（2）相邻数词连用表示概数（3）用“左右、前后”表示概数",
+  "group": "特殊表达法",
+  "category": "数的表示法",
+  "details": "概数表示法2： \n（1）用“大概、大约、几”表示概数（2）相邻数词连用表示概数（3）用“左右、前后”表示概数",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "[0-9０-９一二三四五六七八九十]{1,4}(?:多|来|几|左右|上下|有余)",
+    "desc": "概数表示法"
+   }
+  ]
+ },
+ {
+  "no": "205",
+  "level": 3,
+  "label": "强调的方法／用“一点儿也不……”表示强调",
+  "group": "强调的方法",
+  "category": "用“一点儿也不……”表示强调",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "一点儿也不"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "一点儿也不"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "206",
+  "level": 3,
+  "label": "强调的方法／用反问句表示强调 \n反问句1：不是……吗？/难道……吗？",
+  "group": "强调的方法",
+  "category": "用反问句表示强调 \n反问句1：不是……吗？/难道……吗？",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "难道"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "难道"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "207",
+  "level": 3,
+  "label": "强调的方法／用“是”表示强调",
+  "group": "强调的方法",
+  "category": "用“是”表示强调",
+  "details": "",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "是"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "208",
+  "level": 3,
+  "label": "提问的方法／用疑问语调表示疑问",
+  "group": "提问的方法",
+  "category": "用疑问语调表示疑问",
+  "details": "",
+  "rules": [
+   {
+    "kind": "structural",
+    "detector": "interrogative",
+    "desc": "提问表达"
+   }
+  ]
+ },
+ {
+  "no": "209",
+  "level": 3,
+  "label": "口语格式／都……了",
+  "group": "口语格式",
+  "category": "都……了",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "都.{0,14}?了"
+   }
+  ]
+ },
+ {
+  "no": "212",
+  "level": 4,
+  "label": "词类／动词／能愿动词",
+  "group": "词类",
+  "category": "动词",
+  "details": "能愿动词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "得"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "213",
+  "level": 4,
+  "label": "词类／代词／人称代词",
+  "group": "词类",
+  "category": "代词",
+  "details": "人称代词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "人家"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "214",
+  "level": 4,
+  "label": "词类／量词／名量词",
+  "group": "词类",
+  "category": "量词",
+  "details": "名量词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "卷",
+     "打",
+     "批",
+     "根",
+     "棵",
+     "袋"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "215",
+  "level": 4,
+  "label": "词类／量词／借用量词",
+  "group": "词类",
+  "category": "量词",
+  "details": "借用量词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "屋子",
+     "手",
+     "脸",
+     "针"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "216",
+  "level": 4,
+  "label": "词类／副词／程度副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "程度副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "极",
+     "极其",
+     "格外"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "217",
+  "level": 4,
+  "label": "词类／副词／范围、协同副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "范围、协同副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "共"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "218",
+  "level": 4,
+  "label": "词类／副词／时间副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "时间副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "即将",
+     "尽快",
+     "急忙",
+     "按时",
+     "渐渐"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "219",
+  "level": 4,
+  "label": "词类／副词／频率、重复副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "频率、重复副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "一再",
+     "再三"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "220",
+  "level": 4,
+  "label": "词类／副词／关联副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "关联副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "却"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "221",
+  "level": 4,
+  "label": "词类／副词／否定副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "否定副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "未必"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "222",
+  "level": 4,
+  "label": "词类／副词／情态副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "情态副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "似乎",
+     "几乎"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "223",
+  "level": 4,
+  "label": "词类／副词／语气副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "语气副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "反而",
+     "的确",
+     "究竟",
+     "竟然",
+     "还"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "224",
+  "level": 4,
+  "label": "词类／介词／引出时间、处所",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出时间、处所",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "自"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "225",
+  "level": 4,
+  "label": "词类／介词／引出对象",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出对象",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "对于"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "226",
+  "level": 4,
+  "label": "词类／介词／引出对象",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出对象",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "关于"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "227",
+  "level": 4,
+  "label": "词类／介词／引出对象",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出对象",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "替"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "228",
+  "level": 4,
+  "label": "词类／介词／引出凭借、依据",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出凭借、依据",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "根据"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "229",
+  "level": 4,
+  "label": "词类／介词／引出凭借、依据",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出凭借、依据",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "作为"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "230",
+  "level": 4,
+  "label": "词类／连词／连接词或词组",
+  "group": "词类",
+  "category": "连词",
+  "details": "连接词或词组",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "以及",
+     "并"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "231",
+  "level": 4,
+  "label": "词类／连词／连接分句或句子",
+  "group": "词类",
+  "category": "连词",
+  "details": "连接分句或句子",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "假如",
+     "可见",
+     "总之",
+     "既然",
+     "此外",
+     "甚至",
+     "而",
+     "而是"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "232",
+  "level": 4,
+  "label": "词类／助词／其他助词",
+  "group": "词类",
+  "category": "助词",
+  "details": "其他助词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "似的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "233",
+  "level": 4,
+  "label": "词类／叹词／啊2",
+  "group": "词类",
+  "category": "叹词",
+  "details": "啊2",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "啊"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "234",
+  "level": 4,
+  "label": "短语／固定短语／四字格",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "四字格",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "235",
+  "level": 4,
+  "label": "短语／固定短语／四字格",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "四字格",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "236",
+  "level": 4,
+  "label": "短语／固定短语／其他",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "其他",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "237",
+  "level": 4,
+  "label": "短语／固定短语／其他",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "其他",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "238",
+  "level": 4,
+  "label": "短语／固定短语／其他",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "其他",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "239",
+  "level": 4,
+  "label": "短语／固定短语／其他",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "其他",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "241",
+  "level": 4,
+  "label": "固定格式／（自）……以来",
+  "group": "固定格式",
+  "category": "（自）……以来",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "以来"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "以来"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "242",
+  "level": 4,
+  "label": "固定格式／由……组成",
+  "group": "固定格式",
+  "category": "由……组成",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "由.{0,14}?组成"
+   }
+  ]
+ },
+ {
+  "no": "243",
+  "level": 4,
+  "label": "固定格式／在……方面",
+  "group": "固定格式",
+  "category": "在……方面",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "在.{0,14}?方面"
+   }
+  ]
+ },
+ {
+  "no": "244",
+  "level": 4,
+  "label": "固定格式／在……上/下/中",
+  "group": "固定格式",
+  "category": "在……上/下/中",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "在.{0,14}?(?:上|下|中)"
+   }
+  ]
+ },
+ {
+  "no": "246",
+  "level": 4,
+  "label": "句子成分／主语／受事主语",
+  "group": "句子成分",
+  "category": "主语",
+  "details": "受事主语",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "受事主语"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "247",
+  "level": 4,
+  "label": "句子成分／定语／多项定语",
+  "group": "句子成分",
+  "category": "定语",
+  "details": "多项定语",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "多项定语"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "248",
+  "level": 4,
+  "label": "句子成分／补语／趋向补语",
+  "group": "句子成分",
+  "category": "补语",
+  "details": "趋向补语",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "下",
+     "出",
+     "起"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "254",
+  "level": 4,
+  "label": "句子的类型／复句／并列复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "并列复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "不是.{0,14}?而是"
+   }
+  ]
+ },
+ {
+  "no": "255",
+  "level": 4,
+  "label": "句子的类型／复句／并列复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "并列复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "既.{0,14}?(?:又|也)"
+   }
+  ]
+ },
+ {
+  "no": "256",
+  "level": 4,
+  "label": "句子的类型／复句／承接复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "承接复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "首先.{0,14}?其次"
+   }
+  ]
+ },
+ {
+  "no": "257",
+  "level": 4,
+  "label": "句子的类型／复句／承接复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "承接复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "于是"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "于是"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "258",
+  "level": 4,
+  "label": "句子的类型／复句／递进复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "递进复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "甚至"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "甚至"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "259",
+  "level": 4,
+  "label": "句子的类型／复句／选择复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "选择复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "或者.{0,14}?或者"
+   }
+  ]
+ },
+ {
+  "no": "260",
+  "level": 4,
+  "label": "句子的类型／复句／转折复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "转折复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "然而"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "然而"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "261",
+  "level": 4,
+  "label": "句子的类型／复句／假设复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "假设复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "否则"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "否则"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "262",
+  "level": 4,
+  "label": "句子的类型／复句／假设复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "假设复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "假如"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "假如"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "263",
+  "level": 4,
+  "label": "句子的类型／复句／假设复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "假设复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "万一"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "万一"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "264",
+  "level": 4,
+  "label": "句子的类型／复句／条件复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "条件复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "不管.{0,14}?(?:都|也)"
+   }
+  ]
+ },
+ {
+  "no": "265",
+  "level": 4,
+  "label": "句子的类型／复句／条件复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "条件复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "无论.{0,14}?(?:都|也)"
+   }
+  ]
+ },
+ {
+  "no": "266",
+  "level": 4,
+  "label": "句子的类型／复句／因果复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "因果复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "既然.{0,14}?就"
+   }
+  ]
+ },
+ {
+  "no": "267",
+  "level": 4,
+  "label": "句子的类型／复句／因果复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "因果复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "可见"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "可见"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "268",
+  "level": 4,
+  "label": "句子的类型／复句／让步复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "让步复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "哪怕.{0,14}?(?:也|还)"
+   }
+  ]
+ },
+ {
+  "no": "271",
+  "level": 4,
+  "label": "句子的类型／复句／紧缩复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "紧缩复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "不.{0,14}?也"
+   }
+  ]
+ },
+ {
+  "no": "272",
+  "level": 4,
+  "label": "特殊表达法／数的表示法／概数表示法3：数词+来+量词",
+  "group": "特殊表达法",
+  "category": "数的表示法",
+  "details": "概数表示法3：数词+来+量词",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "[0-9０-９一二三四五六七八九十]{1,4}(?:多|来|几|左右|上下|有余)",
+    "desc": "概数表示法"
+   }
+  ]
+ },
+ {
+  "no": "273",
+  "level": 4,
+  "label": "特殊表达法／数的表示法／小数、分数、百分数、倍数的表示法；",
+  "group": "特殊表达法",
+  "category": "数的表示法",
+  "details": "小数、分数、百分数、倍数的表示法；",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "[0-9０-９一二三四五六七八九十]{1,4}分之[0-9０-９一二三四五六七八九十]{1,4}",
+    "desc": "分数表示法"
+   },
+   {
+    "kind": "pattern",
+    "pattern": "[0-9０-９一二三四五六七八九十]{1,4}倍",
+    "desc": "倍数表示法"
+   },
+   {
+    "kind": "pattern",
+    "pattern": "[0-9０-９]{1,4}\\.[0-9０-９]{1,4}",
+    "desc": "小数表示法"
+   },
+   {
+    "kind": "pattern",
+    "pattern": "[0-9０-９]{1,4}(?:\\.[0-9０-９]{1,3})?%|百分之[0-9０-９一二三四五六七八九十]{1,4}",
+    "desc": "百分数表示法"
+   }
+  ]
+ },
+ {
+  "no": "276",
+  "level": 4,
+  "label": "强调的方法／用“一+量词（+名词）+也（都）/也没（不）……”表示强调",
+  "group": "强调的方法",
+  "category": "用“一+量词（+名词）+也（都）/也没（不）……”表示强调",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "(?:一量词也|也没)"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "一量词也",
+     "也没"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "277",
+  "level": 4,
+  "label": "强调的方法／用“连……也/都……”表示强调",
+  "group": "强调的方法",
+  "category": "用“连……也/都……”表示强调",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "连.{0,14}?(?:也|都)"
+   }
+  ]
+ },
+ {
+  "no": "286",
+  "level": 4,
+  "label": "口语格式／让/叫你X你就X",
+  "group": "口语格式",
+  "category": "让/叫你X你就X",
+  "details": "",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "让"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "287",
+  "level": 4,
+  "label": "口语格式／说什么/怎么（着）也得X",
+  "group": "口语格式",
+  "category": "说什么/怎么（着）也得X",
+  "details": "",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "说什么"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "288",
+  "level": 5,
+  "label": "词类／代词／指示代词",
+  "group": "词类",
+  "category": "代词",
+  "details": "指示代词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "如此",
+     "彼此"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "289",
+  "level": 5,
+  "label": "词类／量词／名量词",
+  "group": "词类",
+  "category": "量词",
+  "details": "名量词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "册",
+     "匹",
+     "届",
+     "幅",
+     "扇",
+     "朵",
+     "颗"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "290",
+  "level": 5,
+  "label": "词类／副词／程度副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "程度副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "可",
+     "尤其",
+     "稍",
+     "稍微",
+     "过于"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "291",
+  "level": 5,
+  "label": "词类／副词／范围、协同副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "范围、协同副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "大都"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "292",
+  "level": 5,
+  "label": "词类／副词／时间副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "时间副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "一向",
+     "不时",
+     "仍旧",
+     "依旧",
+     "将",
+     "将要",
+     "时刻",
+     "时常"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "293",
+  "level": 5,
+  "label": "词类／副词／频率、重复副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "频率、重复副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "偶尔",
+     "再次"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "294",
+  "level": 5,
+  "label": "词类／副词／方式副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "方式副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "偷偷"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "295",
+  "level": 5,
+  "label": "词类／副词／语气副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "语气副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "不免",
+     "倒是",
+     "可",
+     "就",
+     "居然",
+     "差点儿",
+     "干脆",
+     "总算",
+     "明明",
+     "毕竟"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "296",
+  "level": 5,
+  "label": "词类／介词／引出时间、处所",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出时间、处所",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "随着"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "297",
+  "level": 5,
+  "label": "词类／介词／引出目的、原因",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出目的、原因",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "将"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "298",
+  "level": 5,
+  "label": "词类／介词／引出施事、受事",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出施事、受事",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "由"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "299",
+  "level": 5,
+  "label": "词类／介词／引出凭借、依据",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出凭借、依据",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "凭"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "300",
+  "level": 5,
+  "label": "词类／介词／引出凭借、依据",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出凭借、依据",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "依据"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "301",
+  "level": 5,
+  "label": "词类／介词／引出凭借、依据",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出凭借、依据",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "依照"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "302",
+  "level": 5,
+  "label": "词类／连词／连接分句或句子",
+  "group": "词类",
+  "category": "连词",
+  "details": "连接分句或句子",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "一旦",
+     "从而",
+     "加上",
+     "完了"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "303",
+  "level": 5,
+  "label": "词类／助词／其他助词",
+  "group": "词类",
+  "category": "助词",
+  "details": "其他助词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "也好"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "304",
+  "level": 5,
+  "label": "短语／固定短语／四字格",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "四字格",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "305",
+  "level": 5,
+  "label": "短语／固定短语／四字格",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "四字格",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "306",
+  "level": 5,
+  "label": "短语／固定短语／四字格",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "四字格",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "307",
+  "level": 5,
+  "label": "短语／固定短语／四字格",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "四字格",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "308",
+  "level": 5,
+  "label": "短语／固定短语／四字格",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "四字格",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "309",
+  "level": 5,
+  "label": "短语／固定短语／其他",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "其他",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "310",
+  "level": 5,
+  "label": "短语／固定短语／其他",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "其他",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "311",
+  "level": 5,
+  "label": "短语／固定短语／其他",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "其他",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "312",
+  "level": 5,
+  "label": "短语／固定短语／其他",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "其他",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "313",
+  "level": 5,
+  "label": "固定格式／从……来看",
+  "group": "固定格式",
+  "category": "从……来看",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "从.{0,14}?来看"
+   }
+  ]
+ },
+ {
+  "no": "314",
+  "level": 5,
+  "label": "固定格式／到……为止",
+  "group": "固定格式",
+  "category": "到……为止",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "到.{0,14}?为止"
+   }
+  ]
+ },
+ {
+  "no": "315",
+  "level": 5,
+  "label": "固定格式／够……的",
+  "group": "固定格式",
+  "category": "够……的",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "够.{0,14}?的"
+   }
+  ]
+ },
+ {
+  "no": "316",
+  "level": 5,
+  "label": "固定格式／拿……来说",
+  "group": "固定格式",
+  "category": "拿……来说",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "拿.{0,14}?来说"
+   }
+  ]
+ },
+ {
+  "no": "318",
+  "level": 5,
+  "label": "固定格式／在……看来",
+  "group": "固定格式",
+  "category": "在……看来",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "在.{0,14}?看来"
+   }
+  ]
+ },
+ {
+  "no": "319",
+  "level": 5,
+  "label": "句子成分／宾语／宾语的语义类型1：（1）施事宾语；（2）受事宾语",
+  "group": "句子成分",
+  "category": "宾语",
+  "details": "宾语的语义类型1：（1）施事宾语；（2）受事宾语",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "受事宾语"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "320",
+  "level": 5,
+  "label": "句子成分／状语／多项状语",
+  "group": "句子成分",
+  "category": "状语",
+  "details": "多项状语",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "多项状语"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "321",
+  "level": 5,
+  "label": "句子成分／补语／趋向补语",
+  "group": "句子成分",
+  "category": "补语",
+  "details": "趋向补语",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "下来"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "322",
+  "level": 5,
+  "label": "句子成分／补语／可能补语",
+  "group": "句子成分",
+  "category": "补语",
+  "details": "可能补语",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "不得"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "323",
+  "level": 5,
+  "label": "句子成分／补语／程度补语",
+  "group": "句子成分",
+  "category": "补语",
+  "details": "程度补语",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "厉害",
+     "慌"
+    ]
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "形容词坏",
+     "透了"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "331",
+  "level": 5,
+  "label": "句子的类型／复句／选择复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "选择复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "或是.{0,14}?或是"
+   }
+  ]
+ },
+ {
+  "no": "332",
+  "level": 5,
+  "label": "句子的类型／复句／转折复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "转折复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "尽管.{0,14}?(?:但是|可是)"
+   }
+  ]
+ },
+ {
+  "no": "333",
+  "level": 5,
+  "label": "句子的类型／复句／假设复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "假设复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "一旦.{0,14}?就"
+   }
+  ]
+ },
+ {
+  "no": "334",
+  "level": 5,
+  "label": "句子的类型／复句／假设复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "假设复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "要是.{0,14}?.{0,14}?否则"
+   }
+  ]
+ },
+ {
+  "no": "335",
+  "level": 5,
+  "label": "句子的类型／复句／条件复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "条件复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "除非.{0,14}?才"
+   }
+  ]
+ },
+ {
+  "no": "336",
+  "level": 5,
+  "label": "句子的类型／复句／条件复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "条件复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "除非.{0,14}?(?:否则|不然)"
+   }
+  ]
+ },
+ {
+  "no": "337",
+  "level": 5,
+  "label": "句子的类型／复句／因果复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "因果复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "因而"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "因而"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "338",
+  "level": 5,
+  "label": "句子的类型／复句／让步复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "让步复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "即使.{0,14}?也"
+   }
+  ]
+ },
+ {
+  "no": "339",
+  "level": 5,
+  "label": "句子的类型／复句／目的复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "目的复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "为的是"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "为的是"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "340",
+  "level": 5,
+  "label": "句子的类型／复句／目的复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "目的复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "以便"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "以便"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "341",
+  "level": 5,
+  "label": "句子的类型／复句／紧缩复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "紧缩复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "没有.{0,14}?就没有"
+   }
+  ]
+ },
+ {
+  "no": "342",
+  "level": 5,
+  "label": "句子的类型／复句／紧缩复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "紧缩复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "再.{0,14}?也"
+   }
+  ]
+ },
+ {
+  "no": "343",
+  "level": 5,
+  "label": "句子的类型／复句／多重复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "多重复句",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "复句单句"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "344",
+  "level": 5,
+  "label": "强调的方法／用“再也不/没”表示强调",
+  "group": "强调的方法",
+  "category": "用“再也不/没”表示强调",
+  "details": "",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "再也不",
+     "没"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "345",
+  "level": 5,
+  "label": "强调的方法／用副词“可”表示强调",
+  "group": "强调的方法",
+  "category": "用副词“可”表示强调",
+  "details": "",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "可"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "346",
+  "level": 5,
+  "label": "强调的方法／用“怎么都/也+不/没”表示强调",
+  "group": "强调的方法",
+  "category": "用“怎么都/也+不/没”表示强调",
+  "details": "",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "也不",
+     "怎么都",
+     "没"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "352",
+  "level": 5,
+  "label": "口语格式／不管怎样说",
+  "group": "口语格式",
+  "category": "不管怎样说",
+  "details": "",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "不管怎样说"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "354",
+  "level": 5,
+  "label": "口语格式／真有你/他/她的",
+  "group": "口语格式",
+  "category": "真有你/他/她的",
+  "details": "",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "他",
+     "她的",
+     "真有你"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "359",
+  "level": 6,
+  "label": "语素／前缀／类前缀：超-、多-、反-、无-、亚-、准-",
+  "group": "语素",
+  "category": "前缀",
+  "details": "类前缀：超-、多-、反-、无-、亚-、准-",
+  "rules": [
+   {
+    "kind": "affix",
+    "position": "prefix",
+    "needles": [
+     "亚",
+     "反",
+     "多",
+     "无",
+     "超"
+    ],
+    "desc": "词缀（前缀）：亚、反、多、无、超"
+   }
+  ]
+ },
+ {
+  "no": "360",
+  "level": 6,
+  "label": "语素／后缀／类后缀：-化、-式、-型、-性",
+  "group": "语素",
+  "category": "后缀",
+  "details": "类后缀：-化、-式、-型、-性",
+  "rules": [
+   {
+    "kind": "affix",
+    "position": "suffix",
+    "needles": [
+     "化",
+     "型",
+     "式"
+    ],
+    "desc": "词缀（后缀）：化、型、式"
+   }
+  ]
+ },
+ {
+  "no": "361",
+  "level": 6,
+  "label": "词类／代词／指示代词",
+  "group": "词类",
+  "category": "代词",
+  "details": "指示代词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "本",
+     "此"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "362",
+  "level": 6,
+  "label": "词类／量词／名量词",
+  "group": "词类",
+  "category": "量词",
+  "details": "名量词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "串",
+     "副",
+     "枝",
+     "滴",
+     "股",
+     "集",
+     "餐"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "363",
+  "level": 6,
+  "label": "词类／量词／动量词",
+  "group": "词类",
+  "category": "量词",
+  "details": "动量词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "声",
+     "番",
+     "趟"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "364",
+  "level": 6,
+  "label": "词类／副词／程度副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "程度副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "异常",
+     "特"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "365",
+  "level": 6,
+  "label": "词类／副词／范围、协同副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "范围、协同副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "一同",
+     "一齐",
+     "净",
+     "尽"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "366",
+  "level": 6,
+  "label": "词类／副词／时间副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "时间副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "一时",
+     "早晚",
+     "时时"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "367",
+  "level": 6,
+  "label": "词类／副词／关联副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "关联副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "便"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "368",
+  "level": 6,
+  "label": "词类／副词／方式副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "方式副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "不禁",
+     "亲眼",
+     "特地",
+     "特意",
+     "赶忙"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "369",
+  "level": 6,
+  "label": "词类／副词／情态副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "情态副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "仿佛"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "370",
+  "level": 6,
+  "label": "词类／副词／语气副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "语气副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "偏",
+     "刚好",
+     "恰好",
+     "才"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "371",
+  "level": 6,
+  "label": "词类／介词／引出时间、处所",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出时间、处所",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "于"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "372",
+  "level": 6,
+  "label": "词类／介词／引出方向、路径",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出方向、路径",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "沿"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "373",
+  "level": 6,
+  "label": "词类／介词／引出对象",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出对象",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "与",
+     "同"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "374",
+  "level": 6,
+  "label": "词类／介词／引出对象",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出对象",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "至于"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "375",
+  "level": 6,
+  "label": "词类／介词／引出目的、原因",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出目的、原因",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "因"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "376",
+  "level": 6,
+  "label": "词类／介词／表示排除",
+  "group": "词类",
+  "category": "介词",
+  "details": "表示排除",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "除"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "377",
+  "level": 6,
+  "label": "词类／介词／引出凭借、依据",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出凭借、依据",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "据"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "378",
+  "level": 6,
+  "label": "词类／连词／连接词或词组",
+  "group": "词类",
+  "category": "连词",
+  "details": "连接词或词组",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "与",
+     "同",
+     "而"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "379",
+  "level": 6,
+  "label": "词类／连词／连接分句或句子",
+  "group": "词类",
+  "category": "连词",
+  "details": "连接分句或句子",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "不料",
+     "可",
+     "若"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "380",
+  "level": 6,
+  "label": "词类／助词／结构助词",
+  "group": "词类",
+  "category": "助词",
+  "details": "结构助词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "所"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "381",
+  "level": 6,
+  "label": "词类／助词／语气助词",
+  "group": "词类",
+  "category": "助词",
+  "details": "语气助词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "啦",
+     "嘛",
+     "罢了"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "383",
+  "level": 6,
+  "label": "短语／固定短语／四字格",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "四字格",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "384",
+  "level": 6,
+  "label": "短语／固定短语／四字格",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "四字格",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "385",
+  "level": 6,
+  "label": "短语／固定短语／四字格",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "四字格",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "386",
+  "level": 6,
+  "label": "短语／固定短语／四字格",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "四字格",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "387",
+  "level": 6,
+  "label": "短语／固定短语／其他",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "其他",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "388",
+  "level": 6,
+  "label": "短语／固定短语／其他",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "其他",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "389",
+  "level": 6,
+  "label": "短语／固定短语／其他",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "其他",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "390",
+  "level": 6,
+  "label": "短语／固定短语／其他",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "其他",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "391",
+  "level": 6,
+  "label": "短语／固定短语／其他",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "其他",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "392",
+  "level": 6,
+  "label": "短语／固定短语／其他",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "其他",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "395",
+  "level": 6,
+  "label": "固定格式／为了……而……",
+  "group": "固定格式",
+  "category": "为了……而……",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "为了.{0,14}?而"
+   }
+  ]
+ },
+ {
+  "no": "397",
+  "level": 6,
+  "label": "句子成分／补语／趋向补语",
+  "group": "句子成分",
+  "category": "补语",
+  "details": "趋向补语",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "下去",
+     "形容词下来",
+     "起来",
+     "过来"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "400",
+  "level": 6,
+  "label": "句子的类型／复句／并列复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "并列复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "时而.{0,14}?时而"
+   }
+  ]
+ },
+ {
+  "no": "401",
+  "level": 6,
+  "label": "句子的类型／复句／并列复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "并列复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "一时.{0,14}?一时"
+   }
+  ]
+ },
+ {
+  "no": "403",
+  "level": 6,
+  "label": "句子的类型／复句／递进复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "递进复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "(?:不但不|不但没有).{0,14}?反而"
+   }
+  ]
+ },
+ {
+  "no": "404",
+  "level": 6,
+  "label": "句子的类型／复句／递进复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "递进复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "不是.{0,14}?(?:还|还是)"
+   }
+  ]
+ },
+ {
+  "no": "405",
+  "level": 6,
+  "label": "句子的类型／复句／递进复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "递进复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "连.{0,14}?(?:都|也).{0,14}?.{0,14}?更"
+   }
+  ]
+ },
+ {
+  "no": "406",
+  "level": 6,
+  "label": "句子的类型／复句／选择复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "选择复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "要么.{0,14}?要么"
+   }
+  ]
+ },
+ {
+  "no": "407",
+  "level": 6,
+  "label": "句子的类型／复句／转折复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "转折复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "虽.{0,14}?(?:但|可|却|也)"
+   }
+  ]
+ },
+ {
+  "no": "408",
+  "level": 6,
+  "label": "句子的类型／复句／假设复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "假设复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "(?:要不然|不然)"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "不然",
+     "要不然"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "409",
+  "level": 6,
+  "label": "句子的类型／复句／条件复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "条件复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "凡是.{0,14}?都"
+   }
+  ]
+ },
+ {
+  "no": "410",
+  "level": 6,
+  "label": "句子的类型／复句／让步复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "让步复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "(?:就算|就是).{0,14}?也"
+   }
+  ]
+ },
+ {
+  "no": "411",
+  "level": 6,
+  "label": "句子的类型／复句／紧缩复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "紧缩复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "不.{0,14}?不"
+   }
+  ]
+ },
+ {
+  "no": "413",
+  "level": 6,
+  "label": "强调的方法／用“非……不可”表示强调",
+  "group": "强调的方法",
+  "category": "用“非……不可”表示强调",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "非.{0,14}?不可"
+   }
+  ]
+ },
+ {
+  "no": "421",
+  "level": 6,
+  "label": "口语格式／看/瞧+把+宾语（施事）+ X 得",
+  "group": "口语格式",
+  "category": "看/瞧+把+宾语（施事）+ X 得",
+  "details": "",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "看"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "423",
+  "level": 6,
+  "label": "口语格式／X来X去，都是/就是 ……",
+  "group": "口语格式",
+  "category": "X来X去，都是/就是 ……",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "就是"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "就是"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "425",
+  "level": 6,
+  "label": "口语格式／这/那也不X，那/这也不Y",
+  "group": "口语格式",
+  "category": "这/那也不X，那/这也不Y",
+  "details": "",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "这",
+     "那"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "426",
+  "level": 7,
+  "label": "词类／动词／能愿动词",
+  "group": "词类",
+  "category": "动词",
+  "details": "能愿动词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "需"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "427",
+  "level": 7,
+  "label": "词类／代词／疑问代词",
+  "group": "词类",
+  "category": "代词",
+  "details": "疑问代词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "何"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "428",
+  "level": 7,
+  "label": "词类／代词／指示代词",
+  "group": "词类",
+  "category": "代词",
+  "details": "指示代词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "兹",
+     "另",
+     "该"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "429",
+  "level": 7,
+  "label": "词类／量词／名量词",
+  "group": "词类",
+  "category": "量词",
+  "details": "名量词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "则",
+     "枚",
+     "栋",
+     "粒"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "430",
+  "level": 7,
+  "label": "词类／副词／关联副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "关联副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "亦"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "431",
+  "level": 7,
+  "label": "词类／介词／引出方向、路径",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出方向、路径",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "顺着"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "432",
+  "level": 7,
+  "label": "词类／连词／连接词或词组",
+  "group": "词类",
+  "category": "连词",
+  "details": "连接词或词组",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "及"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "433",
+  "level": 7,
+  "label": "词类／连词／连接分句或句子",
+  "group": "词类",
+  "category": "连词",
+  "details": "连接分句或句子",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "继而",
+     "要不是"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "434",
+  "level": 7,
+  "label": "词类／助词／结构助词",
+  "group": "词类",
+  "category": "助词",
+  "details": "结构助词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "之"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "436",
+  "level": 7,
+  "label": "短语／固定短语／四字格",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "四字格",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "437",
+  "level": 7,
+  "label": "短语／固定短语／四字格",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "四字格",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "438",
+  "level": 7,
+  "label": "短语／固定短语／四字格",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "四字格",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "439",
+  "level": 7,
+  "label": "短语／固定短语／四字格",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "四字格",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "440",
+  "level": 7,
+  "label": "短语／固定短语／四字格",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "四字格",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "441",
+  "level": 7,
+  "label": "短语／固定短语／四字格",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "四字格",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "442",
+  "level": 7,
+  "label": "短语／固定短语／四字格",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "四字格",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "443",
+  "level": 7,
+  "label": "短语／固定短语／四字格",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "四字格",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "444",
+  "level": 7,
+  "label": "短语／固定短语／其他",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "其他",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "445",
+  "level": 7,
+  "label": "短语／固定短语／其他",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "其他",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "446",
+  "level": 7,
+  "label": "短语／固定短语／其他",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "其他",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "447",
+  "level": 7,
+  "label": "短语／固定短语／其他",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "其他",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "448",
+  "level": 7,
+  "label": "短语／固定短语／其他",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "其他",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "449",
+  "level": 7,
+  "label": "短语／固定短语／其他",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "其他",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "450",
+  "level": 7,
+  "label": "短语／固定短语／其他",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "其他",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "451",
+  "level": 7,
+  "label": "短语／固定短语／其他",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "其他",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "452",
+  "level": 7,
+  "label": "固定格式／不知……好",
+  "group": "固定格式",
+  "category": "不知……好",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "不知.{0,14}?好"
+   }
+  ]
+ },
+ {
+  "no": "453",
+  "level": 7,
+  "label": "固定格式／所谓……就是……",
+  "group": "固定格式",
+  "category": "所谓……就是……",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "所谓.{0,14}?就是"
+   }
+  ]
+ },
+ {
+  "no": "454",
+  "level": 7,
+  "label": "固定格式／无非/不过/只不过/只是……而已/罢了",
+  "group": "固定格式",
+  "category": "无非/不过/只不过/只是……而已/罢了",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "(?:无非|不过|只不过|只是).{0,14}?(?:而已|罢了)"
+   }
+  ]
+ },
+ {
+  "no": "455",
+  "level": 7,
+  "label": "固定格式／以……为……",
+  "group": "固定格式",
+  "category": "以……为……",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "以.{0,14}?为"
+   }
+  ]
+ },
+ {
+  "no": "456",
+  "level": 7,
+  "label": "固定格式／因……而……",
+  "group": "固定格式",
+  "category": "因……而……",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "因.{0,14}?而"
+   }
+  ]
+ },
+ {
+  "no": "458",
+  "level": 7,
+  "label": "句子成分／补语／程度补语",
+  "group": "句子成分",
+  "category": "补语",
+  "details": "程度补语",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "动词得要命",
+     "要死"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "463",
+  "level": 7,
+  "label": "句子的类型／复句／并列复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "并列复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "一面.{0,14}?一面"
+   }
+  ]
+ },
+ {
+  "no": "464",
+  "level": 7,
+  "label": "句子的类型／复句／承接复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "承接复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "此后"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "此后"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "465",
+  "level": 7,
+  "label": "句子的类型／复句／承接复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "承接复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "起初.{0,14}?.{0,14}?才"
+   }
+  ]
+ },
+ {
+  "no": "466",
+  "level": 7,
+  "label": "句子的类型／复句／递进复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "递进复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "别说.{0,14}?连.{0,14}?(?:也|都)"
+   },
+   {
+    "kind": "pattern",
+    "pattern": "连.{0,14}?(?:也|都).{0,14}?别说"
+   },
+   {
+    "kind": "pattern",
+    "pattern": "别说.{0,14}?即使.{0,14}?也"
+   },
+   {
+    "kind": "pattern",
+    "pattern": "即使.{0,14}?也.{0,14}?别说"
+   }
+  ]
+ },
+ {
+  "no": "467",
+  "level": 7,
+  "label": "句子的类型／复句／递进复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "递进复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "况且"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "况且"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "468",
+  "level": 7,
+  "label": "句子的类型／复句／递进复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "递进复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "连.{0,14}?更不用说"
+   }
+  ]
+ },
+ {
+  "no": "469",
+  "level": 7,
+  "label": "句子的类型／复句／递进复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "递进复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "乃至"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "乃至"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "471",
+  "level": 7,
+  "label": "句子的类型／复句／递进复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "递进复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "甚至于"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "甚至于"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "472",
+  "level": 7,
+  "label": "句子的类型／复句／选择复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "选择复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "或.{0,14}?或"
+   }
+  ]
+ },
+ {
+  "no": "473",
+  "level": 7,
+  "label": "句子的类型／复句／选择复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "选择复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "(?:宁可|宁愿).{0,14}?也"
+   }
+  ]
+ },
+ {
+  "no": "474",
+  "level": 7,
+  "label": "句子的类型／复句／选择复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "选择复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "与其.{0,14}?不如"
+   }
+  ]
+ },
+ {
+  "no": "475",
+  "level": 7,
+  "label": "句子的类型／复句／选择复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "选择复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "与其.{0,14}?(?:宁可|宁愿)"
+   }
+  ]
+ },
+ {
+  "no": "477",
+  "level": 7,
+  "label": "句子的类型／复句／转折复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "转折复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "(?:倒|反倒)"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "倒",
+     "反倒"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "478",
+  "level": 7,
+  "label": "句子的类型／复句／假设复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "假设复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "(?:倘若|若)"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "倘若",
+     "若"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "479",
+  "level": 7,
+  "label": "句子的类型／复句／假设复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "假设复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "(?:倘若|假设|假使|若).{0,14}?(?:就|那)"
+   }
+  ]
+ },
+ {
+  "no": "480",
+  "level": 7,
+  "label": "句子的类型／复句／假设复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "假设复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "幸亏.{0,14}?(?:要不然|不然|要不|否则)"
+   }
+  ]
+ },
+ {
+  "no": "481",
+  "level": 7,
+  "label": "句子的类型／复句／条件复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "条件复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "别管.{0,14}?都"
+   }
+  ]
+ },
+ {
+  "no": "482",
+  "level": 7,
+  "label": "句子的类型／复句／条件复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "条件复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "任.{0,14}?也"
+   }
+  ]
+ },
+ {
+  "no": "484",
+  "level": 7,
+  "label": "句子的类型／复句／因果复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "因果复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "鉴于"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "鉴于"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "485",
+  "level": 7,
+  "label": "句子的类型／复句／因果复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "因果复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "以致"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "以致"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "486",
+  "level": 7,
+  "label": "句子的类型／复句／因果复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "因果复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "以至于"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "以至于"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "487",
+  "level": 7,
+  "label": "句子的类型／复句／因果复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "因果复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "之所以.{0,14}?(?:是因为|是由于)"
+   }
+  ]
+ },
+ {
+  "no": "488",
+  "level": 7,
+  "label": "句子的类型／复句／让步复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "让步复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "固然.{0,14}?也"
+   }
+  ]
+ },
+ {
+  "no": "489",
+  "level": 7,
+  "label": "句子的类型／复句／让步复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "让步复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "固然.{0,14}?(?:但是|可是|不过)"
+   }
+  ]
+ },
+ {
+  "no": "490",
+  "level": 7,
+  "label": "句子的类型／复句／让步复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "让步复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "即便.{0,14}?也"
+   }
+  ]
+ },
+ {
+  "no": "491",
+  "level": 7,
+  "label": "句子的类型／复句／让步复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "让步复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "虽说.{0,14}?(?:但是|可是|不过)"
+   }
+  ]
+ },
+ {
+  "no": "492",
+  "level": 7,
+  "label": "句子的类型／复句／让步复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "让步复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "纵然.{0,14}?也"
+   }
+  ]
+ },
+ {
+  "no": "494",
+  "level": 7,
+  "label": "句子的类型／复句／目的复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "目的复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "(?:以免|免得)"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "以免",
+     "免得"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "495",
+  "level": 7,
+  "label": "句子的类型／复句／解说复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "解说复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "也就是说"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "也就是说"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "499",
+  "level": 7,
+  "label": "强调的方法／用反问句表示强调 \n反问句3：何必/何苦……呢？",
+  "group": "强调的方法",
+  "category": "用反问句表示强调 \n反问句3：何必/何苦……呢？",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "何苦"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "何苦"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "500",
+  "level": 7,
+  "label": "口语格式／（不过/但/可是）话又说回来，……",
+  "group": "口语格式",
+  "category": "（不过/但/可是）话又说回来，……",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "话又说回来"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "话又说回来"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "502",
+  "level": 7,
+  "label": "口语格式／X也好/也罢，Y也好/也罢",
+  "group": "口语格式",
+  "category": "X也好/也罢，Y也好/也罢",
+  "details": "",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "也罢"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "507",
+  "level": 7,
+  "label": "口语格式／话（说）是这么说，不过/可/可是……",
+  "group": "口语格式",
+  "category": "话（说）是这么说，不过/可/可是……",
+  "details": "",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "(?:可|可是)"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "可",
+     "可是"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "508",
+  "level": 7,
+  "label": "口语格式／看/瞧你那（X）样",
+  "group": "口语格式",
+  "category": "看/瞧你那（X）样",
+  "details": "",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "看",
+     "瞧你那样"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "512",
+  "level": 7,
+  "label": "口语格式／说到/想到哪儿去了",
+  "group": "口语格式",
+  "category": "说到/想到哪儿去了",
+  "details": "",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "想到哪儿去了",
+     "说到"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "515",
+  "level": 7,
+  "label": "句群／形式分类／带关联词语",
+  "group": "句群",
+  "category": "形式分类",
+  "details": "带关联词语",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "带关联词语"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "516",
+  "level": 7,
+  "label": "句群／形式分类／不带关联词语",
+  "group": "句群",
+  "category": "形式分类",
+  "details": "不带关联词语",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "不带关联词语"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "517",
+  "level": 7,
+  "label": "句群／意义分类／联合关系：并列句群、承接句群、递进句群、选择句群、解说句群、总括句群",
+  "group": "句群",
+  "category": "意义分类",
+  "details": "联合关系：并列句群、承接句群、递进句群、选择句群、解说句群、总括句群",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "总括句群",
+     "承接句群",
+     "解说句群",
+     "选择句群",
+     "递进句群"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "518",
+  "level": 7,
+  "label": "句群／意义分类／偏正关系：条件句群、因果句群、目的句群、转折句群、假设句群、让步句群",
+  "group": "句群",
+  "category": "意义分类",
+  "details": "偏正关系：条件句群、因果句群、目的句群、转折句群、假设句群、让步句群",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "假设句群",
+     "因果句群",
+     "目的句群",
+     "让步句群",
+     "转折句群"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "519",
+  "level": 7,
+  "label": "词类／副词／程度副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "程度副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "极为"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "520",
+  "level": 7,
+  "label": "词类／副词／程度副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "程度副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "尽"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "521",
+  "level": 7,
+  "label": "词类／副词／程度副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "程度副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "蛮"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "522",
+  "level": 7,
+  "label": "词类／副词／程度副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "程度副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "颇"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "523",
+  "level": 7,
+  "label": "词类／副词／程度副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "程度副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "稍稍"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "524",
+  "level": 7,
+  "label": "词类／副词／程度副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "程度副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "尤为"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "525",
+  "level": 7,
+  "label": "词类／副词／程度副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "程度副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "越发"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "526",
+  "level": 7,
+  "label": "句子的类型／复句／递进复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "递进复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "何况"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "何况"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "527",
+  "level": 7,
+  "label": "句子的类型／复句／递进复句",
+  "group": "句子的类型",
+  "category": "复句",
+  "details": "递进复句",
+  "rules": [
+   {
+    "kind": "pattern",
+    "pattern": "进而"
+   },
+   {
+    "kind": "lex",
+    "needles": [
+     "进而"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "528",
+  "level": 7,
+  "label": "词类／副词／范围、协同副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "范围、协同副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "凡"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "529",
+  "level": 7,
+  "label": "词类／副词／范围、协同副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "范围、协同副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "皆"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "530",
+  "level": 7,
+  "label": "词类／副词／范围、协同副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "范围、协同副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "统统"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "531",
+  "level": 7,
+  "label": "词类／副词／范围、协同副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "范围、协同副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "唯独"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "532",
+  "level": 7,
+  "label": "词类／副词／方式副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "方式副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "不由得"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "533",
+  "level": 7,
+  "label": "词类／副词／方式副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "方式副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "一连"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "534",
+  "level": 7,
+  "label": "词类／副词／方式副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "方式副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "顺便"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "535",
+  "level": 7,
+  "label": "词类／副词／否定副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "否定副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "未"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "536",
+  "level": 7,
+  "label": "词类／副词／否定副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "否定副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "勿"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "537",
+  "level": 7,
+  "label": "词类／副词／频率、重复副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "频率、重复副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "频频"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "538",
+  "level": 7,
+  "label": "词类／副词／频率、重复副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "频率、重复副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "再度"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "539",
+  "level": 7,
+  "label": "短语／固定短语／其他",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "其他",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "540",
+  "level": 7,
+  "label": "短语／固定短语／其他",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "其他",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "541",
+  "level": 7,
+  "label": "短语／固定短语／其他",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "其他",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "542",
+  "level": 7,
+  "label": "短语／固定短语／其他",
+  "group": "短语",
+  "category": "固定短语",
+  "details": "其他",
+  "rules": [
+   {
+    "kind": "lex",
+    "desc": "固定短语",
+    "needles": [
+     "不一会儿",
+     "什么的"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "543",
+  "level": 7,
+  "label": "词类／副词／情态副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "情态副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "必定"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "544",
+  "level": 7,
+  "label": "词类／副词／情态副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "情态副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "不妨"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "545",
+  "level": 7,
+  "label": "词类／副词／情态副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "情态副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "何必"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "546",
+  "level": 7,
+  "label": "词类／副词／情态副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "情态副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "莫非"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "547",
+  "level": 7,
+  "label": "词类／副词／情态副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "情态副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "按说"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "548",
+  "level": 7,
+  "label": "词类／副词／时间副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "时间副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "即"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "549",
+  "level": 7,
+  "label": "词类／副词／时间副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "时间副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "历来"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "550",
+  "level": 7,
+  "label": "词类／副词／时间副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "时间副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "尚"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "551",
+  "level": 7,
+  "label": "词类／副词／时间副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "时间副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "向来"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "552",
+  "level": 7,
+  "label": "词类／介词／引出对象",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出对象",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "当着"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "553",
+  "level": 7,
+  "label": "词类／介词／引出对象",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出对象",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "就"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "554",
+  "level": 7,
+  "label": "词类／介词／引出凭借、依据",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出凭借、依据",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "趁"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "555",
+  "level": 7,
+  "label": "词类／介词／引出凭借、依据",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出凭借、依据",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "基于"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "556",
+  "level": 7,
+  "label": "词类／介词／引出凭借、依据",
+  "group": "词类",
+  "category": "介词",
+  "details": "引出凭借、依据",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "依"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "557",
+  "level": 7,
+  "label": "词类／副词／语气副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "语气副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "白白"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "558",
+  "level": 7,
+  "label": "词类／副词／语气副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "语气副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "反倒"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "559",
+  "level": 7,
+  "label": "词类／副词／语气副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "语气副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "分明"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "560",
+  "level": 7,
+  "label": "词类／副词／语气副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "语气副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "怪不得"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "561",
+  "level": 7,
+  "label": "词类／副词／语气副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "语气副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "好在"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "562",
+  "level": 7,
+  "label": "词类／副词／语气副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "语气副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "乃"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "563",
+  "level": 7,
+  "label": "词类／副词／语气副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "语气副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "难怪"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "564",
+  "level": 7,
+  "label": "词类／副词／语气副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "语气副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "偏偏"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "565",
+  "level": 7,
+  "label": "词类／副词／语气副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "语气副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "索性"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "566",
+  "level": 7,
+  "label": "词类／副词／语气副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "语气副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "万万"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "567",
+  "level": 7,
+  "label": "词类／副词／语气副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "语气副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "未免"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "568",
+  "level": 7,
+  "label": "词类／副词／语气副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "语气副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "无非"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "569",
+  "level": 7,
+  "label": "词类／副词／语气副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "语气副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "幸好"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "570",
+  "level": 7,
+  "label": "词类／副词／语气副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "语气副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "幸亏"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "571",
+  "level": 7,
+  "label": "词类／副词／语气副词",
+  "group": "词类",
+  "category": "副词",
+  "details": "语气副词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "终究"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "572",
+  "level": 7,
+  "label": "词类／助词／语气助词",
+  "group": "词类",
+  "category": "助词",
+  "details": "语气助词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "而已"
+    ]
+   }
+  ]
+ },
+ {
+  "no": "573",
+  "level": 7,
+  "label": "词类／助词／语气助词",
+  "group": "词类",
+  "category": "助词",
+  "details": "语气助词",
+  "rules": [
+   {
+    "kind": "lex",
+    "needles": [
+     "矣"
+    ]
+   }
+  ]
+ }
+]

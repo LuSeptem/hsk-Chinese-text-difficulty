@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>中文文本阅读难度分级</title>
+<style>
+  :root{
+    --bg:#f5f6f8; --card:#ffffff; --ink:#1f2328; --ink2:#57606a; --ink3:#8b949e;
+    --line:#e3e6ea; --accent:#2f6feb; --accent-soft:#eaf1fe;
+    --l1:#7fb069; --l2:#a7c957; --l3:#f2c14e; --l4:#f4a259; --l5:#ef8354; --l6:#d95d63; --l7:#a2425c;
+    --radius:10px;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",system-ui,sans-serif;
+    font-size:14px; line-height:1.7;
+  }
+  .wrap{max-width:1240px;margin:0 auto;padding:24px 20px 60px}
+  header h1{font-size:21px;margin:0 0 6px;font-weight:600}
+  header .formula{
+    font-family:"Cambria Math",Georgia,serif;background:var(--accent-soft);color:#1b4bab;
+    padding:6px 12px;border-radius:6px;display:inline-block;font-size:13px;margin-bottom:6px;
+  }
+  header .src{color:var(--ink3);font-size:12.5px}
+  .foot{margin-top:26px;padding-top:14px;border-top:1px solid var(--line);color:var(--ink3);font-size:12px;line-height:1.85}
+  .foot p{margin:0 0 4px}
+  .foot a{color:var(--ink2);text-decoration:none;border-bottom:1px dotted var(--ink3)}
+  .foot a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+  .grid{display:grid;grid-template-columns:minmax(340px,5fr) minmax(420px,7fr);gap:20px;margin-top:22px}
+  @media (max-width:980px){.grid{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px}
+  .card h2{font-size:15px;margin:0 0 14px;font-weight:600;display:flex;align-items:center;gap:8px}
+  .card h2 .tag{font-size:11px;font-weight:400;color:var(--ink3)}
+  textarea{
+    width:100%;min-height:260px;resize:vertical;padding:12px;border:1px solid var(--line);
+    border-radius:8px;font-size:14px;line-height:1.8;font-family:inherit;color:var(--ink);
+  }
+  textarea:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+  .row{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:12px}
+  .btn{
+    background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 20px;
+    font-size:14px;cursor:pointer;font-family:inherit;
+  }
+  .btn:hover{background:#2559c4}
+  .btn:disabled{background:#b6c4e0;cursor:not-allowed}
+  .btn.ghost{background:#fff;color:var(--ink2);border:1px solid var(--line)}
+  .btn.ghost:hover{background:#f0f2f5}
+  .muted{color:var(--ink3);font-size:12.5px}
+  .opts{margin-top:14px;border-top:1px dashed var(--line);padding-top:12px}
+  .opts label{display:flex;gap:8px;align-items:flex-start;margin-bottom:8px;cursor:pointer;color:var(--ink2);font-size:13px}
+  .opts input{margin-top:4px}
+  /* ---------- 结果 ---------- */
+  #result{display:none}
+  .score-hero{display:flex;align-items:center;gap:22px;flex-wrap:wrap}
+  .score-num{font-size:52px;font-weight:600;letter-spacing:-1px;line-height:1}
+  .score-num small{font-size:15px;color:var(--ink3);font-weight:400;margin-left:6px}
+  .grade-badge{
+    font-size:20px;font-weight:600;color:#fff;padding:8px 20px;border-radius:999px;
+  }
+  .grade-ref{font-size:12.5px;color:var(--ink2);margin-top:6px}
+  .bandbar{position:relative;height:10px;background:#eceff3;border-radius:5px;margin:16px 0 6px}
+  .bandbar .pin{position:absolute;top:-5px;width:4px;height:20px;background:var(--ink);border-radius:2px;transform:translateX(-2px)}
+  .bandscale{display:flex;justify-content:space-between;font-size:11px;color:var(--ink3)}
+  .dims{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:16px}
+  .dim{background:#fafbfc;border:1px solid var(--line);border-radius:8px;padding:10px 12px}
+  .dim .nm{font-size:12px;color:var(--ink3)}
+  .dim .vl{font-size:20px;font-weight:600;margin-top:2px}
+  .dim .sub{font-size:11.5px;color:var(--ink3)}
+  /* 分布图 */
+  .chart{margin-top:10px}
+  .bar-row{display:flex;align-items:center;gap:10px;margin-bottom:5px}
+  .bar-lab{width:44px;font-size:12px;color:var(--ink2);text-align:right;flex:none}
+  .bar-track{flex:1;height:16px;background:#f0f2f5;border-radius:4px;overflow:hidden}
+  .bar-fill{height:100%;border-radius:4px;transition:width .35s ease}
+  .bar-val{width:86px;font-size:12px;color:var(--ink2);flex:none}
+  .lv1{background:var(--l1)}.lv2{background:var(--l2)}.lv3{background:var(--l3)}
+  .lv4{background:var(--l4)}.lv5{background:var(--l5)}.lv6{background:var(--l6)}.lv7{background:var(--l7)}
+  /* 清单 */
+  details{margin-top:14px;border:1px solid var(--line);border-radius:8px;background:#fafbfc}
+  details summary{cursor:pointer;padding:10px 14px;font-size:13px;font-weight:600;color:var(--ink2)}
+  details .body{padding:0 14px 12px;max-height:330px;overflow:auto}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line)}
+  th{color:var(--ink3);font-weight:500;font-size:12px;position:sticky;top:0;background:#fafbfc}
+  .chips{display:flex;flex-wrap:wrap;gap:6px}
+  .chip{background:#fff;border:1px solid var(--line);border-radius:5px;padding:2px 8px;font-size:12.5px;color:var(--ink2)}
+  .chip.hi{background:#fdeee9;border-color:#f3c9bd;color:#a2425c}
+  .stats{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:12px;font-size:12.5px;color:var(--ink2)}
+  .note{background:#fff8e6;border:1px solid #f2dfae;color:#7a5b13;border-radius:6px;padding:8px 12px;font-size:12.5px;margin-top:12px}
+  .err{background:#fdecec;border:1px solid #f3c2c2;color:#a2425c;border-radius:6px;padding:10px 12px;font-size:13px}
+  .spinner{display:inline-block;width:14px;height:14px;border:2px solid #fff;border-top-color:transparent;border-radius:50%;animation:spin .7s linear infinite;vertical-align:-2px;margin-right:6px}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .sample{font-size:12.5px;color:var(--accent);cursor:pointer;text-decoration:underline}
+  /* ---------- 分析过程 ---------- */
+  .steps{border:1px solid var(--line);border-radius:8px;background:#fafbfc;padding:12px 14px}
+  .step{display:flex;align-items:center;gap:9px;padding:5px 0;font-size:13px;color:var(--ink3)}
+  .step .sn{flex:none}
+  .step .sd{margin-left:auto;font-size:12px;color:var(--ink3);text-align:right}
+  .step .dot{width:10px;height:10px;border-radius:50%;background:#d7dbe0;flex:none}
+  .step.done{color:var(--ink)}
+  .step.done .dot{background:var(--l1)}
+  .step.run{color:var(--accent);font-weight:600}
+  .step.run .dot{background:var(--accent);animation:pulse .9s ease-in-out infinite}
+  .step.run .sd{color:var(--accent)}
+  @keyframes pulse{0%,100%{opacity:.3}50%{opacity:1}}
+  .ok-dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--l1);margin-right:5px}
+  .ok{color:#2f7d32}
+</style>
+</head>
+<body>
+<noscript>
+  <div style="background:#a2425c;color:#fff;padding:12px 20px;font-size:14px">
+    当前环境禁用了 JavaScript，本页无法计算难度。请在正常浏览器窗口中打开本文件（双击文件即可），
+    或到浏览器设置里允许本页运行脚本。
+  </div>
+</noscript>
+<div class="wrap">
+  <header>
+    <h1>中文文本阅读难度分级</h1>
+    <div class="formula">难度 = (1/3) × Σ<sub>n=1..7</sub> n × [ r<sub>字</sub>(n) + r<sub>词</sub>(n) + r<sub>语法</sub>(n) ]</div>
+    <div class="src">
+      依据程勇、董军、晋淑华《基于新标准的汉语二语文本阅读难度分级体系构建与应用》（《世界汉语教学》2023 年第 1 期），
+      分级数据为《国际中文教育中文水平等级标准》(GF&nbsp;0025-2021)：汉字 3000、词汇 11092、语法 572 条（数据文件来自 <a href="https://github.com/ivankra/hsk30" target="_blank" rel="noopener noreferrer">ivankra/hsk30</a>）。
+    </div>
+    <div class="src" id="engineInfo"></div>
+  </header>
+
+  <div class="grid">
+    <!-- 输入 -->
+    <div class="card">
+      <h2>输入文本 <span class="tag">粘贴或输入一段中文</span></h2>
+      <textarea id="text" placeholder="在此粘贴中文文本……"></textarea>
+      <div class="row">
+        <button class="btn" id="run">开始分析</button>
+        <button class="btn ghost" id="clear">清空</button>
+        <span class="muted" id="counter">0 字</span>
+        <span class="sample" id="fillSample">填入示例</span>
+      </div>
+      <div class="opts">
+        <label><input type="checkbox" id="optChars" checked>
+          <span>表外字计入第 7 级<small class="muted">（不在 3000 字表内的字视为七—九级）</small></span></label>
+        <label><input type="checkbox" id="optWords">
+          <span>表外词计入第 7 级<small class="muted">（默认关闭：分词产生的专名、切分碎片不计入难度）</small></span></label>
+      </div>
+    </div>
+
+    <!-- 结果 -->
+    <div class="card" id="result">
+      <h2>分析结果</h2>
+      <div id="out"></div>
+    </div>
+    <div class="card" id="placeholder">
+      <h2>分析结果</h2>
+      <div class="muted">在左侧输入文本后点击「开始分析」，这里会显示难度分数、评级，以及字／词／语法三个维度的级别分布。</div>
+    </div>
+  </div>
+
+  <footer class="foot">
+    <p>难度公式与分级阈值取自程勇、董军、晋淑华《基于新标准的汉语二语文本阅读难度分级体系构建与应用》（《世界汉语教学》2023 年第 1 期）。</p>
+    <p>分级数据（汉字 3000 / 词汇 11092 / 语法 572 条）来自 <a href="https://github.com/ivankra/hsk30" target="_blank" rel="noopener noreferrer">ivankra/hsk30</a>，MIT 许可 —— 感谢 Ivan Krasilnikov，以及上游 Shawky 与 Pleco Inc. 的数据整理工作。原标准为《国际中文教育中文水平等级标准》(GF 0025-2021)。</p>
+    <p>本项目以 MIT 许可发布。所有计算在本地浏览器完成，文本不会上传。</p>
+  </footer>
+</div>
+
+<script src="data.js"></script>
+<script src="engine.js"></script>
+<script src="ui.js"></script>
+</body>
+</html>

@@ -692,6 +692,49 @@
     return ENGINE;
   }
 
+  // ------------------------------------------------------------------ //
+  // 后端探测
+  //   服务版（python server.py）有 /api/health → 改用 Python + jieba 计算
+  //   单文件版（file://）与 GitHub Pages 上没有后端 → 自动走本地 JS 引擎
+  // ------------------------------------------------------------------ //
+  var BACKEND_PROBE = Promise.resolve(null);
+
+  function detectBackend() {
+    try {
+      if (typeof fetch !== 'function') return Promise.resolve(null);
+      // file:// 下不发请求，直接走本地引擎
+      if (location.protocol !== 'http:' && location.protocol !== 'https:') {
+        return Promise.resolve(null);
+      }
+      return fetch('api/health', { cache: 'no-store' })
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (j) {
+          return (j && j.ok === true && j.engine === 'python') ? j : null;
+        })
+        .catch(function () { return null; });
+    } catch (e) {
+      return Promise.resolve(null);
+    }
+  }
+
+  function analyzeViaBackend(text) {
+    return fetch('api/analyze', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        text: text,
+        oov_chars_to_top: $('#optChars').checked,
+        oov_words_to_top: $('#optWords').checked
+      })
+    }).then(function (r) {
+      return r.json().catch(function () { return null; }).then(function (j) {
+        if (!r.ok) throw new Error((j && j.detail) ? j.detail : ('服务返回 ' + r.status));
+        if (!j || !j.dimensions) throw new Error('服务返回的数据格式不正确');
+        return j;
+      });
+    });
+  }
+
   function showError(e) {
     var msg = (e && e.message) ? e.message : String(e);
     $('#out').innerHTML = '<div class="err"><b>分析失败：</b>' + escapeHtml(msg) + '</div>';
@@ -893,10 +936,41 @@
 
       var btn = $('#run');
       var wall0 = nowMs();
-      var computeMs = 0;
       btn.disabled = true;
       btn.innerHTML = '<span class="spinner"></span>分析中';
 
+      BACKEND_PROBE.then(function (backend) {
+        return backend ? runBackend(text, btn, wall0) : runLocal(text, btn, wall0);
+      }).catch(function (e) {
+        showError(e);
+        resetBtn(btn);
+      });
+    };
+
+    // 有 Python 后端：交给服务器算（jieba 分词，与论文实现更接近）
+    function runBackend(text, btn, wall0) {
+      showProgress(['提交文本到 Python 服务', 'jieba 分词 + 语法匹配 + 按公式计分']);
+      markStep({ index: 0, phase: 'start' });
+
+      var t0 = nowMs();
+      return analyzeViaBackend(text).then(function (data) {
+        var ms = nowMs() - t0;
+        markStep({ index: 0, phase: 'done', detail: '已提交 ' + text.length + ' 字' });
+        markStep({ index: 1, phase: 'done', detail: '服务器耗时 ' + Math.round(ms) + ' ms' });
+        render(data, {
+          computeMs: Math.round(ms * 10) / 10,
+          wallMs: Math.round((nowMs() - wall0) * 10) / 10
+        });
+      }).catch(function (e) {
+        showError(e);
+      }).then(function () {
+        resetBtn(btn);
+      });
+    }
+
+    // 无后端：浏览器本地计算（离线可用）
+    function runLocal(text, btn, wall0) {
+      var computeMs = 0;
       var engine;
       try {
         engine = getEngine();
@@ -904,10 +978,10 @@
       } catch (e) {
         resetBtn(btn);
         showError(e);
-        return;
+        return Promise.resolve();
       }
 
-      engine.analyzeAsync(
+      return engine.analyzeAsync(
         text,
         { oov_chars_to_top: $('#optChars').checked, oov_words_to_top: $('#optWords').checked },
         function (ev) {
@@ -922,21 +996,30 @@
       }).then(function () {
         resetBtn(btn);
       });
-    };
+    }
 
-    // 显示内置数据量，便于确认数据已就绪
+    // 先显示本地引擎就绪状态（单文件版立即可见）
+    var el = document.getElementById('engineInfo');
     try {
       var m = getEngine().meta;
-      var el = document.getElementById('engineInfo');
       if (el) {
         el.innerHTML = '<span class="ok-dot"></span><b class="ok">分级引擎已就绪</b>　'
           + '内置汉字 ' + m.char_count + ' / 词汇 ' + m.word_count + ' / 语法规则 ' + m.rule_count
           + '；全部计算在浏览器本地完成，无需联网。';
       }
     } catch (e) {
-      var el2 = document.getElementById('engineInfo');
-      if (el2) { el2.innerHTML = '<span style="color:#a2425c">数据未能加载：' + escapeHtml(e.message) + '</span>'; }
+      if (el) { el.innerHTML = '<span style="color:#a2425c">数据未能加载：' + escapeHtml(e.message) + '</span>'; }
     }
+
+    // 再探测有没有 Python 后端；有就改口径，让用户知道当前用的是哪个引擎
+    BACKEND_PROBE = detectBackend();
+    BACKEND_PROBE.then(function (backend) {
+      if (!backend || !el) return;
+      var bm = backend.meta || {};
+      el.innerHTML = '<span class="ok-dot"></span><b class="ok">分级引擎已就绪（Python 后端 · jieba 分词）</b>　'
+        + '汉字 ' + bm.char_count + ' / 词汇 ' + bm.word_count + ' / 语法规则 ' + bm.rule_count
+        + '；由 FastAPI 服务计算，结果以服务器为准。';
+    });
   }
 
   if (document.readyState === 'loading') {

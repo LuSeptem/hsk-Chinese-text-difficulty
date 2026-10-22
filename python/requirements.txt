@@ -1,0 +1,5 @@
+# 中文文本阅读难度分级 —— Python 版依赖
+# 安装：pip install -r requirements.txt
+fastapi>=0.115
+uvicorn>=0.30
+jieba>=0.42
